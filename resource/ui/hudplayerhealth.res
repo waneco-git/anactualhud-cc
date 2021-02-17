@@ -1,15 +1,99 @@
 "Resource/UI/HudPlayerHealth.res"
 {
+
+	"Crosshair1" //curante state: ON
+	{
+		"ControlName"		"CTFImagePanel"//CTFImagePanel
+		"fieldName"			"Crosshair1"
+		"xpos"				"cs-0.5"
+		"ypos"				"cs-0.5"
+		"zpos"				"198"
+		"wide"				"24" // Crosshair1 size
+		"tall"				"24" // Crosshair1 size
+		"visible"			"1" // Crosshair1 enabled
+		"enabled"			"1" // Crosshair1 enabled
+		"image"				"replay/thumbnails/xhairs/xhair1"
+		"scaleImage"		"1"
+		"drawcolor"			"0 0 0 255"
+		"Alpha"				"255" // Crosshair1 opacity
+	}
+	"Crosshair2" //curante state: OFF
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"Crosshair2"
+		"xpos"				"cs-0.5"
+		"ypos"				"cs-0.5"
+		"zpos"				"197"
+		"wide"				"24" // Crosshair2 size
+		"tall"				"24" // Crosshair2 size
+		"visible"			"0" // Crosshair2 disable
+		"enabled"			"0" // Crosshair2 disable
+		"image"				"replay/thumbnails/xhairs/xhair2"
+		"scaleImage"		"1"
+		"drawcolor"			"0 0 0 255"
+		"Alpha"				"255" // Crosshair2 opacity
+	}
+	"Crosshair3" //curante state: OFF
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"Crosshair3"
+		"xpos"				"cs-0.5"
+		"ypos"				"cs-0.5"
+		"zpos"				"196"
+		"wide"				"24" // Crosshair3 size
+		"tall"				"24" // Crosshair3 size
+		"visible"			"0" // Crosshair3 disable
+		"enabled"			"0" // Crosshair3 disable
+		"image"				"replay/thumbnails/xhairs/xhair3"
+		"scaleImage"		"1"
+		"drawcolor"			"0 0 0 255"
+		"Alpha"				"255" // Crosshair3 opacity
+	}
+
+	"Hitmarker" //curante state: OFF
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"Hitmarker"
+		"xpos"			"c-4"
+		"ypos"			"c-4"
+		"zpos"			"20"
+		"wide"			"8"
+		"tall"			"8"
+		"enabled"		"0"
+		"visible"		"0"
+		"image"			"replay/thumbnails/hitmarkers/hitmarker_red"
+		"teambg_2"		"replay/thumbnails/hitmarkers/hitmarker_red"
+		"teambg_3"		"replay/thumbnails/hitmarkers/hitmarker_blue"
+		"scaleImage"	"1"	
+		"Alpha"			"0"
+	}
+	"teamindicator"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"teamindicator"
+		"xpos"			"-9999" // 1 TI
+		"ypos"			"-9999" // 2 TI
+		"zpos"			"50"		
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"				"replay/thumbnails/redcorner"
+		"teambg_2"			"replay/thumbnails/redcorner"
+		"teambg_3"			"replay/thumbnails/bluecorner"
+									 
+	}
 	// player health data
 	"HudPlayerHealth"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-265"
-		"ypos"			"c65"
+		"xpos"			"0" //c-265
+		"ypos"			"0" //c65
 		"zpos"			"2"
-		"wide"			"180"
-		"tall"			"150"
+		"wide"			"f0"
+		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
 		"HealthBonusPosAdj"	"35"
@@ -49,8 +133,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"93"
-		"ypos"			"29"
+		"xpos"			"c-172"//93, c-265
+		"ypos"			"c94"//29, c65
 		"zpos"			"2"
 		"wide"			"44"
 		"tall"			"44"
@@ -64,8 +148,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"72"
-		"ypos"			"35"
+		"xpos"			"c-193"//72, c-265
+		"ypos"			"c100"//35, c65
 		"zpos"			"5"
 		"wide"			"84"
 		"tall"			"32"
@@ -153,9 +237,9 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PlayerStatusAnchor"
-		"xpos"			"65"
-		"xpos_minmode"	"0"
-		"ypos"			"0"
+		"xpos"			"c-200" //65, c-265
+		"xpos_minmode"	"c-265" //0, c-265
+		"ypos"			"c65"//0, c65
 		"wide"			"25"
 		"tall"			"25"
 		"visible"		"1"
@@ -731,7 +815,6 @@
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
 	}
-
 	"PlayerStatusHookBleedImage"
 	{
 		"ControlName"	"ImagePanel"

@@ -356,10 +356,10 @@
 			"color_portrait_bg_blue"	"72 112 125 255"
 			"color_portrait_bg_red_dead"	"79 54 52 255"
 			"color_portrait_bg_blue_dead"	"44 49 51 255"
-			"color_bar_health_high"	"84 191 58 255"
-			"color_bar_health_med"	"191 183 58 255"
+			"color_bar_health_high"	"242 242 242 255" //84 191 58 255
+			"color_bar_health_med"	"213 117 115 255" //191 183 58 255
 			"percentage_health_med"	"0.6"
-			"color_bar_health_low"	"191 58 58 255"
+			"color_bar_health_low"	"158 64 61 255" //191 58 58 255
 			"percentage_health_low"	"0.3"
 			"color_portrait_blend_dead_red"	"255 255 255 255"
 			"color_portrait_blend_dead_blue" "255 255 255 255"
@@ -445,7 +445,7 @@
 				"dulltext"				"0"
 				"brighttext"			"0"
 				"bgcolor_override"	   "0 0 0 0"
-				"fgcolor_override"	   "255 255 255 160"
+				"fgcolor_override"	   "0 255 127 160"
 				"proportionaltoparent"	"1"
 			}
 			"HealthIcon"

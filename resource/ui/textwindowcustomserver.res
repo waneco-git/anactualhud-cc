@@ -66,7 +66,7 @@
 
 	"HTMLMessage"
 	{
-		"ControlName"		"HTML"
+		"ControlName"	"HTML"
 		"fieldName"		"HTMLMessage"
 		"xpos"			"c-320"
 		"ypos"			"0"
@@ -77,7 +77,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
+		"tabPosition"	"0"
 		"paintborder"	"0"
 	}
 

@@ -2,6 +2,19 @@ Scheme
 {
 	Borders
 	{
+		//Name //Sunset Hud
+		//{
+		//	"bordertype"			"scalable_image"
+		//	"backgroundtype"		"2"
+			
+		//	"image"					"replay/thumbnails/Name"
+		//	"src_corner_height"		"32"
+		//	"src_corner_width"		"32"
+		//	"draw_corner_width"		"8"
+		//	"draw_corner_height" 	"8"
+
+		//}							 
+	//--------------------------------------------------------------
 		HoAssBorder
 		{
 			"offset" "0 0"
@@ -576,12 +589,12 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
-
+			"draw_corner_height" 	"0"
+			
 			"image"					"../hud/color_panel_red_opaque"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportion
 		}
 		TFFatLineBorderRedBGOpaque_Store
 		{

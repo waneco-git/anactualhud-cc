@@ -105,15 +105,15 @@
 		"actionsignallevel"	"2"
 
 		//"border_default"	"MainMenuMiniButtonDefault"
-		//"border_armed"		"MainMenuMiniButtonArmed"
-		"paintbackground"	"1"
+		"border_armed"		"ahudMenuBorder"
+		"paintbackground"	"0"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override" "TanLight"
+		"defaultFgColor_override"	"ahudWhite"
+		"armedFgColor_override"		"ahudWhite"
+		"depressedFgColor_override" "75 125 255 255"
 	}
 
 	"MatchmakingBanPanel"

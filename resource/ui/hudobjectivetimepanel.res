@@ -221,26 +221,30 @@
 		{
 			"wide"	"0"
 		}
+
 	}
 
 	"ServerTimeLimitLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ServerTimeLimitLabel"
-		"xpos"			"-24"
-		"ypos"			"0"
-		"zpos"			"5"
-		"wide"			"78"
-		"tall"			"15"
-		"visible"		"0"
-		"enabled"		"1"
-		"labelText"		"%servertimeleft%"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"wrap"			"0"
-		"font"			"aRegular10"
-		"fgcolor"		"ahudWhite"
+		{
+		"ControlName"		"CExLabel"
+		"fieldName"			"ServerTimeLimitLabel"
+		"xpos"				"5"
+		"ypos"				"18"
+		"zpos"				"5"
+		"wide"				"50"
+		"wide_hidef"		"295"		
+		"wide_lodef"		"295"
+		"tall"				"20"
+		"tall_hidef"		"21"
+		"tall_lodef"		"23"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"%servertimeleft%"
+		"textAlignment"		"center"
+		"dulltext"			"0"
+		"brighttext"		"1"
+		"wrap"				"0"
+		"font"				"G_FontSmall"
 
 		if_match
 		{
@@ -251,7 +255,7 @@
 
 	"ServerTimeLimitLabelBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"ServerTimeLimitLabelBG"
 		"xpos"			"-8"
 		"ypos"			"0"
@@ -260,7 +264,7 @@
 		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"	"HudBlack"
+		"fillcolor"		"HudBlack"
 		"PaintBackgroundType"	"0"
 
 		if_match

@@ -75,7 +75,7 @@
 			"textinsetx"	"40"
 			"stay_armed_on_click"	"1"
 			"border_default"	"NoBorder"
-			"defaultBgColor_override"	"88 88 88 20"
+			"defaultBgColor_override"	"235 226 202 20"
 			"border_armed"		"NoBorder"
 			"armedBgColor_override"	"ahudYellow"
 			"selectedBGColor_override" "ahudYellow"

@@ -9,7 +9,7 @@
 		"ypos"			"10"
 		"zpos"			"1001"
 		"wide"			"280"
-		"tall"			"f70"
+		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -22,7 +22,7 @@
 		"ypos"		"23"
 		"zpos"		"99"
 		"wide"		"f0"
-		"tall"		"20"
+		"tall"		"25"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_Matchmaking_HeaderModeSelect"
 		"textAlignment"	"west"

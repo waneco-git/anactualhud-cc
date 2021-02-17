@@ -8,7 +8,7 @@
 		"ypos"			"0"
 		"zpos"			"100"
 		"wide"			"260"
-		"tall"			"330"
+		"tall"			"400"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 
@@ -320,9 +320,9 @@
 				"ControlName"	"CScrollableList"
 				"fieldName"		"MatchHistoryContainer"
 				"xpos"			"cs-0.5"
-				"ypos"			"40"
+				"ypos"			"42"
 				"wide"			"p0.95"
-				"tall"			"p0.78"
+				"tall"			"p0.78" //I found that you don't have to change this
 				"visible"		"1"
 				"proportionaltoparent"	"1"
 				"restrict_width" "0"

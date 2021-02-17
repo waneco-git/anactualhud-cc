@@ -6,10 +6,6 @@ Scheme
 		// CUSTOM COLORS
 		//---------------------------------------------
 
-		"Crosshair"				"0 0 0 255"
-		"CrosshairDamage"		"255 0 0 255"		// For no damage flash, set to the
-													// same value as Crosshair
-
 		"HP"					"243 243 243 255"
 		"HP Buff"				"0 255 127 255"
 		"HP Low"				"200 45 45 255"
@@ -31,6 +27,7 @@ Scheme
 		"Ubercharge Meter"		"0 255 127 255"
 		"Ubercharge1"			"0 255 127 255"
 		"Ubercharge2"			"0 210 105 255"
+		"xpprogresscolour"		"94 150 49 255"
 
 		//---------------------------------------------
 		// HUD COLORS
@@ -38,6 +35,7 @@ Scheme
 
 		"ShadowBlack"			"7 7 7 255"
 		"HudBlack"				"0 0 0 200"
+		"HudBlackDarker"		"0 0 0 230"
 
 		"ahudBlue"				"72 112 125 255"
 		"ahudDarkBlue"			"46 73 82 255"
@@ -66,6 +64,7 @@ Scheme
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
+		"OrangeLighter"		"248 197 53 30"
 		"LightOrange"		"188 112 0 128"
 		"GoalOrange"		"255 133 0 255"
 		"TFOrange"			"145 73 59 255"
