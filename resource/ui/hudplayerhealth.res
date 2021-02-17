@@ -1,7 +1,7 @@
 "Resource/UI/HudPlayerHealth.res"
 {
 
-	"Crosshair1" //curante state: ON
+	"Crosshair1" //curante state: OFF
 	{
 		"ControlName"		"CTFImagePanel"//CTFImagePanel
 		"fieldName"			"Crosshair1"
@@ -10,8 +10,8 @@
 		"zpos"				"198"
 		"wide"				"24" // Crosshair1 size
 		"tall"				"24" // Crosshair1 size
-		"visible"			"1" // Crosshair1 enabled
-		"enabled"			"1" // Crosshair1 enabled
+		"visible"			"0" // Crosshair1 disable
+		"enabled"			"0" // Crosshair1 disable
 		"image"				"replay/thumbnails/xhairs/xhair1"
 		"scaleImage"		"1"
 		"drawcolor"			"0 0 0 255"

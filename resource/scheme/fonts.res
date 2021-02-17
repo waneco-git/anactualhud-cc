@@ -2474,7 +2474,6 @@ Scheme
 				"name"		"Code-Pro-LC"
 				"tall"		"12"
 				"weight"	"500"
-				//"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"TextColor"	"Black"
 				"antialias" 	"1"
 			}
@@ -2486,7 +2485,6 @@ Scheme
 				"name"		"Code-Pro-LC"
 				"tall"		"8"
 				"weight"	"500"
-				//"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"TextColor"	"Black"
 				"antialias" 	"1"
 			}
@@ -3276,9 +3274,6 @@ Scheme
 				"tall"		"22"
 				"weight"	"0"
 				"range"		"0x0000 0x04FF"
-				
-				"range"		"0x0000 0x04FF"
-
 				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
