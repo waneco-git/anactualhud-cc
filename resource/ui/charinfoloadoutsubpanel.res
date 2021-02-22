@@ -60,7 +60,7 @@
 		"labelText"					"1"
 		"font"						"ClassIcons"
 		"textAlignment"				"center"
-		"use_proportional_insets"	"0"
+		"use_proportional_insets"	"1"
 		"dulltext"					"0"
 		"brighttext"				"0"
 		"default"					"0"
@@ -68,7 +68,7 @@
 		"Command"					"loadout scout"
 		"paintbackground"			"0"
 		
-		"defaultFgColor_override" 	White
+		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LOGScout"
 		"depressedFgColor_override" "LOGScout"
 		
@@ -92,7 +92,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"wrap"						"1"
-		"fgcolor" 					White
+		"fgcolor" 					"White"
 		"centerwrap"				"1"
 
 		"pin_to_sibling"			"CustomScout"
@@ -126,7 +126,7 @@
 		"labelText"					"2"
 		"font"						"ClassIcons"
 		"textAlignment"				"center"
-		"use_proportional_insets"	"0"
+		"use_proportional_insets"	"1"
 		"dulltext"					"0"
 		"brighttext"				"0"
 		"default"					"0"
@@ -134,7 +134,7 @@
 		"Command"					"loadout soldier"
 		"paintbackground"			"0"
 		
-		"defaultFgColor_override" 	White
+		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LOGSoldier"
 		"depressedFgColor_override" "LOGSoldier"
 		
@@ -162,7 +162,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"wrap"						"1"
-		"fgcolor" 					White
+		"fgcolor" 					"White"
 		"centerwrap"				"1"
 
 		"pin_to_sibling"			"CustomSoldier"
@@ -204,7 +204,7 @@
 		"Command"					"loadout pyro"
 		"paintbackground"			"0"
 		
-		"defaultFgColor_override" 	White
+		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LOGPyro"
 		"depressedFgColor_override" "LOGPyro"
 		
@@ -232,7 +232,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"wrap"						"1"
-		"fgcolor" 					White
+		"fgcolor" 					"White"
 		"centerwrap"				"1"
 
 		"pin_to_sibling"			"CustomPyro"
@@ -274,7 +274,7 @@
 		"Command"					"loadout demoman"
 		"paintbackground"			"0"
 		
-		"defaultFgColor_override" 	White
+		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LOGDemoman"
 		"depressedFgColor_override" "LOGDemoman"
 		
@@ -302,7 +302,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"wrap"						"1"
-		"fgcolor" 					White
+		"fgcolor" 					"White"
 		"centerwrap"				"1"
 
 		"pin_to_sibling"			"CustomDemoman"
@@ -343,7 +343,7 @@
 		"use_proportional_insets" 	"1"
 		"dulltext"					"0"
 		"brighttext"				"0"
-		"defaultFgColor_override" 	White
+		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LOGHeavy"
 		"depressedFgColor_override" "LOGHeavy"
 		
@@ -371,7 +371,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"wrap"						"1"
-		"fgcolor" 					White
+		"fgcolor" 					"White"
 		"centerwrap"				"1"
 
 		"pin_to_sibling"			"CustomHeavy"
@@ -413,7 +413,7 @@
 		"Command"					"loadout engineer"
 		"paintbackground"			"0"
 		
-		"defaultFgColor_override" 	White
+		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LOGEngineer"
 		"depressedFgColor_override" "LOGEngineer"
 		
@@ -441,7 +441,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"wrap"						"1"
-		"fgcolor" 					White
+		"fgcolor" 					"White"
 		"centerwrap"				"1"
 
 		"pin_to_sibling"			"CustomEngineer"
@@ -483,7 +483,7 @@
 		"Command"					"loadout medic"
 		"paintbackground"			"0"
 		
-		"defaultFgColor_override" 	White
+		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LOGMedic"
 		"depressedFgColor_override" "LOGMedic"
 		
@@ -511,7 +511,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"wrap"						"1"
-		"fgcolor" 					White
+		"fgcolor" 					"White"
 		"centerwrap"				"1"
 
 		"pin_to_sibling"			"CustomMedic"
@@ -553,7 +553,7 @@
 		"Command"					"loadout sniper"
 		"paintbackground"			"0"
 		
-		"defaultFgColor_override" 	White
+		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LOGSniper"
 		"depressedFgColor_override" "LOGSniper"
 		
@@ -581,7 +581,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"wrap"						"1"
-		"fgcolor" 					White
+		"fgcolor" 					"White"
 		"centerwrap"				"1"
 
 		"pin_to_sibling"			"CustomSniper"
@@ -623,7 +623,7 @@
 		"Command"					"loadout spy"
 		"paintbackground"			"0"
 		
-		"defaultFgColor_override" 	White
+		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LOGSpy"
 		"depressedFgColor_override" "LOGSpy"
 		
@@ -651,7 +651,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"wrap"						"1"
-		"fgcolor" 					White
+		"fgcolor" 					"White"
 		"centerwrap"				"1"
 
 		"pin_to_sibling"			"CustomSpy"
@@ -693,7 +693,7 @@
 		"Command"					"backpack"
 		"paintbackground"			"0"
 		
-		"defaultFgColor_override" 	White
+		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LOGScout"
 		"depressedFgColor_override" "LOGScout"
 		
@@ -707,7 +707,7 @@
 		"font"						"aBold14"
 		"labelText"					"#BackpackTitle"
 		"textAlignment"				"north"
-		"fgcolor"					White
+		"fgcolor"					"White"
 		"xpos"						"0"
 		"ypos"						"5"
 		"zpos"						"7"
@@ -757,7 +757,7 @@
 		"Command"					"crafting"
 		"paintbackground"			"0"
 		
-		"defaultFgColor_override" 	White
+		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LOGPyro"
 		"depressedFgColor_override" "LOGPyro"
 		
@@ -775,7 +775,7 @@
 		"font"						"aBold14"
 		"labelText"					"#CraftingExplanation_Title"
 		"textAlignment"				"north"
-		"fgcolor"					White
+		"fgcolor"					"White"
 		"xpos"						"0"
 		"ypos"						"5"
 		"zpos"						"7"
@@ -825,7 +825,7 @@
 		"Command"					"armory"
 		"paintbackground"			"0"
 		
-		"defaultFgColor_override" 	White
+		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LOGHeavy"
 		"depressedFgColor_override" "LOGHeavy"
 		
@@ -842,7 +842,7 @@
 		"fieldName"					"ShowArmoryLabel"
 		"font"						"aBold14"
 		"labelText"					"#Armory"
-		"fgcolor"					White
+		"fgcolor"					"White"
 		"textAlignment"				"north"
 		"xpos"						"0"
 		"ypos"						"5"
@@ -893,7 +893,7 @@
 		"Command"					"trading"
 		"paintbackground"			"0"
 		
-		"defaultFgColor_override" 	White
+		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LOGMedic"
 		"depressedFgColor_override" "LOGMedic"
 		
@@ -911,7 +911,7 @@
 		"font"						"aBold14"
 		"labelText"					"#TradingExplanation_Title"
 		"textAlignment"				"north"
-		"fgcolor"					White
+		"fgcolor"					"White"
 		"xpos"						"0"
 		"ypos"						"5"
 		"zpos"						"7"
@@ -962,7 +962,7 @@
 		"Command"					"paintkit_preview"
 		"paintbackground"			"0"
 		
-		"defaultFgColor_override" 	White
+		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LOGSpy"
 		"depressedFgColor_override" "LOGSpy"
 		
@@ -980,7 +980,7 @@
 		"font"						"aBold14"
 		"labelText"					"#PaintkitTitle"
 		"textAlignment"				"north"
-		"fgcolor"					White
+		"fgcolor"					"White"
 		"xpos"						"0"
 		"ypos"						"5"
 		"zpos"						"7"
@@ -1089,7 +1089,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor_override"	White
+		"fgcolor_override"	"White"
 	}
 
 	"LoadoutChangesLabel"
@@ -1298,7 +1298,7 @@
 			"armedFgColor_override" "ahudYellow"
 			"depressedFgColor_override" "46 43 42 255"
 			"image_drawcolor"	"DarkerGrey"
-			"image_armedcolor"	White
+			"image_armedcolor"	"White"
 
 			"SubImage"
 			{
@@ -1404,9 +1404,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"defaultFgColor_override" 	White
+			"defaultFgColor_override" 	"White"
 			"armedFgColor_override" 	"ahudYellow"
-			"depressedFgColor_override" White
+			"depressedFgColor_override" "White"
 		}
 
 		"PrevButton"
@@ -1439,7 +1439,7 @@
 			"armedFgColor_override" "ahudYellow"
 			"depressedFgColor_override" "46 43 42 255"
 			"image_drawcolor"	"DarkerGrey"
-			"image_armedcolor"	White
+			"image_armedcolor"	"White"
 
 			"SubImage"
 			{
@@ -1506,7 +1506,7 @@
 			"armedFgColor_override" "ahudYellow"
 			"depressedFgColor_override" "46 43 42 255"
 			"image_drawcolor"	"DarkerGrey"
-			"image_armedcolor"	White
+			"image_armedcolor"	"White"
 
 			"SubImage"
 			{
@@ -1611,9 +1611,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"defaultFgColor_override" 	White
+			"defaultFgColor_override" 	"White"
 			"armedFgColor_override" 	"ahudYellow"
-			"depressedFgColor_override" White
+			"depressedFgColor_override" "White"
 		}
 
 		"PrevButton"
@@ -1646,7 +1646,7 @@
 			"armedFgColor_override" "ahudYellow"
 			"depressedFgColor_override" "46 43 42 255"
 			"image_drawcolor"	"DarkerGrey"
-			"image_armedcolor"	White
+			"image_armedcolor"	"White"
 
 			"SubImage"
 			{
@@ -1713,7 +1713,7 @@
 			"armedFgColor_override" "ahudYellow"
 			"depressedFgColor_override" "46 43 42 255"
 			"image_drawcolor"	"DarkerGrey"
-			"image_armedcolor"	White
+			"image_armedcolor"	"White"
 
 			"SubImage"
 			{
@@ -1818,9 +1818,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"defaultFgColor_override" 	White
+			"defaultFgColor_override" 	"White"
 			"armedFgColor_override" 	"ahudYellow"
-			"depressedFgColor_override" White
+			"depressedFgColor_override" "White"
 		}
 
 		"PrevButton"
@@ -1853,7 +1853,7 @@
 			"armedFgColor_override" "ahudYellow"
 			"depressedFgColor_override" "46 43 42 255"
 			"image_drawcolor"	"DarkerGrey"
-			"image_armedcolor"	White
+			"image_armedcolor"	"White"
 
 			"SubImage"
 			{
@@ -1920,7 +1920,7 @@
 			"armedFgColor_override" "ahudYellow"
 			"depressedFgColor_override" "46 43 42 255"
 			"image_drawcolor"	"DarkerGrey"
-			"image_armedcolor"	White
+			"image_armedcolor"	"White"
 
 			"SubImage"
 			{
@@ -2025,9 +2025,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"defaultFgColor_override" 	White
+			"defaultFgColor_override" 	"White"
 			"armedFgColor_override" 	"ahudYellow"
-			"depressedFgColor_override" White
+			"depressedFgColor_override" "White"
 		}
 
 		"PrevButton"
@@ -2060,7 +2060,7 @@
 			"armedFgColor_override" "ahudYellow"
 			"depressedFgColor_override" "46 43 42 255"
 			"image_drawcolor"	"DarkerGrey"
-			"image_armedcolor"	White
+			"image_armedcolor"	"White"
 
 			"SubImage"
 			{
@@ -2127,7 +2127,7 @@
 			"armedFgColor_override" "ahudYellow"
 			"depressedFgColor_override" "46 43 42 255"
 			"image_drawcolor"	"DarkerGrey"
-			"image_armedcolor"	White
+			"image_armedcolor"	"White"
 
 			"SubImage"
 			{
@@ -2232,9 +2232,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"defaultFgColor_override" 	White
+			"defaultFgColor_override" 	"White"
 			"armedFgColor_override" 	"ahudYellow"
-			"depressedFgColor_override" White
+			"depressedFgColor_override" "White"
 		}
 
 		"PrevButton"
@@ -2267,7 +2267,7 @@
 			"armedFgColor_override" "ahudYellow"
 			"depressedFgColor_override" "46 43 42 255"
 			"image_drawcolor"	"DarkerGrey"
-			"image_armedcolor"	White
+			"image_armedcolor"	"White"
 
 			"SubImage"
 			{
@@ -2334,7 +2334,7 @@
 			"armedFgColor_override" "ahudYellow"
 			"depressedFgColor_override" "46 43 42 255"
 			"image_drawcolor"	"DarkerGrey"
-			"image_armedcolor"	White
+			"image_armedcolor"	"White"
 
 			"SubImage"
 			{
@@ -2438,9 +2438,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"defaultFgColor_override" 	White
+			"defaultFgColor_override" 	"White"
 			"armedFgColor_override" 	"ahudYellow"
-			"depressedFgColor_override" White
+			"depressedFgColor_override" "White"
 		}
 
 		"PrevButton"
@@ -2473,7 +2473,7 @@
 			"armedFgColor_override" "ahudYellow"
 			"depressedFgColor_override" "46 43 42 255"
 			"image_drawcolor"	"DarkerGrey"
-			"image_armedcolor"	White
+			"image_armedcolor"	"White"
 
 			"SubImage"
 			{
