@@ -38,7 +38,9 @@ Scheme
 		"HudBlackDarker"		"0 0 0 230"
 
 		"ahudBlue"				"72 112 125 255"
-		"ahudDarkBlue"			"46 73 82 255"
+		"ahudDarkerBlue"		"46 73 82 255"		//OG "ahudDarkBlue"
+		"ahudDarkBlue"			"41 70 104 255"
+		"ahudLightBlue"			"58 125 177 255"
 		"ahudRed"				"158 64 61 255"
 		"ahudDarkRed"			"102 48 46 255"
 
@@ -250,5 +252,15 @@ Scheme
 		"UpgradeSelectedBg"		"249 138 83 255"
 		"UpgradeDisabledFg"		"64 59 52 255"
 		"UpgradeDisabledBg"		"79 77 68 255"
+		
+		"LOGScout"					"58 125 177 255"
+		"LOGSoldier"				"76 119 162 255"
+		"LOGPyro"					"94 114 148 255"
+		"LOGDemoman"				"111 108 133 255"
+		"LOGHeavy"					"129 103 119 255"
+		"LOGEngineer"				"147 97 104 255"
+		"LOGMedic"					"165 91 89 255"
+		"LOGSniper"					"182 86 75 255"
+		"LOGSpy"					"200 80 60 255"
 	}
 }

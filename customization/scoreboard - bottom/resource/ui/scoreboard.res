@@ -55,7 +55,7 @@
 			"tall"			"3"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override"	"ahudDarkBlue"
+			"bgcolor_override"	"ahudDarkerBlue"
 			"proportionaltoparent"	"1"
 		}
 	}

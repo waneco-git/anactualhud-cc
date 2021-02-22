@@ -14,7 +14,7 @@ Scheme
 		"HudBlack"				"0 0 0 200"
 		
 		"ahudBlue"				"72 112 125 255"
-		"ahudDarkBlue"			"46 73 82 255"
+		"ahudDarkerBlue"			"46 73 82 255"
 		"ahudRed"				"158 64 61 255"
 		"ahudDarkRed"			"102 48 46 255"
 		

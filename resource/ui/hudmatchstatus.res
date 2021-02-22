@@ -675,7 +675,7 @@
 			"tall"			"39"
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
-			"bgcolor_override"	"ahudDarkBlue"
+			"bgcolor_override"	"ahudDarkerBlue"
 		}
 		"BluePlayerList"
 		{

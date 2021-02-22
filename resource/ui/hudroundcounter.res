@@ -81,7 +81,7 @@
 			"wide"			"f0"
 			"tall"			"2"
 			"proportionaltoparent"	"1"
-			"bgcolor_override"	"ahudDarkBlue"
+			"bgcolor_override"	"ahudDarkerBlue"
 		}
 	}
 	"RedTeamBackground"

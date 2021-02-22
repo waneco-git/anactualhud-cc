@@ -63,7 +63,7 @@
 				"tall"			"3"
 				"visible"		"1"
 				"enabled"		"1"
-				"bgcolor_override"	"ahudDarkBlue"
+				"bgcolor_override"	"ahudDarkerBlue"
 				"proportionaltoparent"	"1"
 			}
 		}
@@ -177,7 +177,7 @@
 			"enabled"		"1"
 			"image"			""
 			"scaleImage"	"1"
-			"color_outline"	"ahudDarkBlue"
+			"color_outline"	"ahudDarkerBlue"
 		}
 
 		"BlueLeaderAvatarBG"
@@ -191,7 +191,7 @@
 			"tall"			"39"
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
-			"bgcolor_override"	"ahudDarkBlue"
+			"bgcolor_override"	"ahudDarkerBlue"
 		}
 
 		"RedTeamLabel"

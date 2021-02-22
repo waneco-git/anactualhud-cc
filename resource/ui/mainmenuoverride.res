@@ -1867,16 +1867,15 @@
 			"use_proportional_insets"	"1"
 			"font"						"aRegular20"
 			"textAlignment"				"west"
-
 			"default"					"1"
 					
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
 			
 		
-			"defaultFgColor_override"	"242 242 242 10"
+			"defaultFgColor_override"	"HudPanelBorder"
 			"armedFgColor_override"		"ahudWhite"
-			"depressedFgColor_override"	"75 125 255 255"
+			"depressedFgColor_override"	"ahudWhite"
 			
 			"border_default"			"NoBorder"
 			"border_armed"				"NoBorder"
@@ -2595,7 +2594,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"competive_requires"
-		"xpos"				"r34"
+		"xpos"				"r34"//r34
 		"ypos"				"135"
 		// "ypos"				"123"
 		"zpos"				"5"
@@ -2620,9 +2619,9 @@
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
 					
-			"defaultFgColor_override"	"242 242 242 10"
+			"defaultFgColor_override"	"0 0 0 175"
 			"armedFgColor_override"		"ahudWhite"
-			"depressedFgColor_override"	"75 125 255 255"
+			"depressedFgColor_override"	"ahudWhite"
 			
 			"border_default"			"NoBorder"
 			"border_armed"				"NoBorder"
@@ -2703,9 +2702,9 @@
 			"visible"					"1"
 			"enabled"					"1"
 		
-			"defaultFgColor_override"	"242 242 242 10"
-			"armedFgColor_override"		"ahudWhite"
-			"depressedFgColor_override"	"75 125 255 255"
+			"defaultFgColor_override"	"HudBlack"
+			"armedFgColor_override"		"HudPanelBorder"
+			"depressedFgColor_override"	"HudPanelBorder"
 			
 			"border_default"			"NoBorder"
 			"border_armed"				"NoBorder"
@@ -2747,9 +2746,9 @@
 			"visible"					"1"
 			"enabled"					"1"
 		
-			"defaultFgColor_override"	"242 242 242 10"
-			"armedFgColor_override"		"ahudWhite"
-			"depressedFgColor_override"	"75 125 255 255"
+			"defaultFgColor_override"	"HudBlack"
+			"armedFgColor_override"		"HudPanelBorder"
+			"depressedFgColor_override"	"HudPanelBorder"
 			
 			"border_default"			"NoBorder"
 			"border_armed"				"NoBorder"
@@ -2789,9 +2788,9 @@
 			"visible"					"1"
 			"enabled"					"1"
 		
-			"defaultFgColor_override"	"242 242 242 10"
-			"armedFgColor_override"		"ahudWhite"
-			"depressedFgColor_override"	"75 125 255 255"
+			"defaultFgColor_override"	"HudBlack"
+			"armedFgColor_override"		"HudPanelBorder"
+			"depressedFgColor_override"	"HudPanelBorder"
 			
 			"border_default"			"NoBorder"
 			"border_armed"				"NoBorder"
@@ -2828,9 +2827,9 @@
 			"default"					"1"
 			"AllCaps"					"1"
 
-			"defaultFgColor_override"	"242 242 242 10"
-			"armedFgColor_override"		"242 242 242 10"
-			"depressedFgColor_override"	"75 125 255 255"
+			"defaultFgColor_override"	"HudBlack"
+			"armedFgColor_override"		"HudPanelBorder"
+			"depressedFgColor_override"	"HudPanelBorder"
 
 			"border_default"			"NoBorder"
 			"border_armed"				"NoBorder"
@@ -2868,9 +2867,9 @@
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
 					
-			"defaultFgColor_override"	"242 242 242 10"
-			"armedFgColor_override"		"ahudWhite"
-			"depressedFgColor_override"	"75 125 255 255"
+			"defaultFgColor_override"	"HudBlack"
+			"armedFgColor_override"		"HudPanelBorder"
+			"depressedFgColor_override"	"HudPanelBorder"
 			
 			"border_default"			"NoBorder"
 			"border_armed"				"NoBorder"
@@ -2906,9 +2905,9 @@
 			"default"					"1"
 			"AllCaps"					"1"
 
-			"defaultFgColor_override"	"242 242 242 10"
-			"armedFgColor_override"		"242 242 242 10"
-			"depressedFgColor_override"	"75 125 255 255"
+			"defaultFgColor_override"	"HudBlack"
+			"armedFgColor_override"		"HudPanelBorder"
+			"depressedFgColor_override"	"HudPanelBorder"
 
 			"border_default"			"NoBorder"
 			"border_armed"				"NoBorder"
@@ -2946,9 +2945,9 @@
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
 					
-			"defaultFgColor_override"	"242 242 242 10"
-			"armedFgColor_override"		"ahudWhite"
-			"depressedFgColor_override"	"75 125 255 255"
+			"defaultFgColor_override"	"HudBlack"
+			"armedFgColor_override"		"HudPanelBorder"
+			"depressedFgColor_override"	"HudPanelBorder"
 			
 			"border_default"			"NoBorder"
 			"border_armed"				"NoBorder"

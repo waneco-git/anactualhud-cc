@@ -141,32 +141,32 @@ Scheme
 			{
 				"1"
 				{
-					"color" "ahudDarkBlue"
+					"color" "ahudDarkerBlue"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "ahudDarkBlue"
+					"color" "ahudDarkerBlue"
 					"offset" "0 0"
 				}
 				"3"
 				{
-					"color" "ahudDarkBlue"
+					"color" "ahudDarkerBlue"
 					"offset" "0 0"
 				}
 				"4"
 				{
-					"color" "ahudDarkBlue"
+					"color" "ahudDarkerBlue"
 					"offset" "0 0"
 				}
 				"5"
 				{
-					"color" "ahudDarkBlue"
+					"color" "ahudDarkerBlue"
 					"offset" "0 0"
 				}
 				"6"
 				{
-					"color" "ahudDarkBlue"
+					"color" "ahudDarkerBlue"
 					"offset" "0 0"
 				}
 			}
