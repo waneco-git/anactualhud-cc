@@ -99,7 +99,28 @@
 			"ypos"			"203"
 		}
 	}
+	
+	"CreateServerEntry"
+	{
+		"ControlName"	"CPlayListEntry"
+		"fieldName"		"CreateServerEntry"
+		"xpos"			"0"
+		"ypos"			"253"
+		"tall"			"45"
+		"wide"			"255"
+		"proportionaltoparent"	"1"
 
+		"image_name"		"main_menu/main_menu_button_custom_server"
+		"button_token"		"#MMenu_PlayList_CreateServer_Button"
+		"button_command"	"create_server"
+		"desc_token"		"#MMenu_PlayList_CreateServer_Desc"
+
+		if_event
+		{
+			"ypos"			"303"
+		}
+	}
+	
 	"TrainingEntry"
 	{
 		"ControlName"	"CPlayListEntry"
@@ -121,26 +142,6 @@
 		}
 	}
 
-	"CreateServerEntry"
-	{
-		"ControlName"	"CPlayListEntry"
-		"fieldName"		"CreateServerEntry"
-		"xpos"			"0"
-		"ypos"			"253"
-		"tall"			"45"
-		"wide"			"255"
-		"proportionaltoparent"	"1"
-
-		"image_name"		"main_menu/main_menu_button_custom_server"
-		"button_token"		"#MMenu_PlayList_CreateServer_Button"
-		"button_command"	"create_server"
-		"desc_token"		"#MMenu_PlayList_CreateServer_Desc"
-
-		if_event
-		{
-			"ypos"			"303"
-		}
-	}
 	"Cserver"
 	{
 		"ControlName"	"ImagePanel"
@@ -179,15 +180,9 @@
 		"default"		"1"
 		"proportionaltoparent" "1"
 		"actionsignallevel"	"2"
-		"command"		"engine cl_disablehtmlmotd 0; say_team !s; cancelselect"
-		"button_command"	"engine cl_disablehtmlmotd 0; say_team !s; cancelselect"
 
-
-		//"border_armed"		"ahudMenuBorder"
+		//"border_armed"		"ahudMenuBorder" //Does not works
 		"paintbackground"	"0"
-
-		//"sound_depressed"	"UI/buttonclick.wav"
-		//"sound_released"	"UI/buttonclickrelease.wav"
 
 		"defaultFgColor_override"	"ahudWhite"
 		"armedFgColor_override"		"ahudWhite"
@@ -251,6 +246,44 @@
 			"ypos"			"353"
 		}
 	}
+	"CBGPanel"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"CBGPanel"
+		"xpos"			"0"
+		"ypos"			"303"
+		"zpos"			"9"
+		"tall"			"45"
+		"wide"			"255"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+
+		"border"		"InnerShadowBorder"
+		"bgcolor_override"	"0 0 0 0"
+	
+		"CBGPanelUrl"
+		{
+			"ControlName"			"URLLabel"
+			"fieldName"				"CBGPanelUrl"
+			"xpos"					"0"
+			"ypos"					"0"
+			"zpos"					"2"
+			"wide"					"f0"
+			"tall"					"f0"
+			"font"					"HudFontSmallestBold"
+			"labelText"				""
+			"enabled"				"1"
+			"visible"				"1"
+			"paintBackground"		"0"
+			"textAlignment"			"west"
+			"fgcolor_override"		"HudWhite"
+			"proportionaltoparent"	"1"
+			"urlText"				"https://creators.tf/servers"
+			
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+		}
+	}
 	"ScrollBar"
 	{
 		"ControlName"	"ScrollBar"
@@ -258,11 +291,11 @@
 		"xpos"			"rs1-1"
 		"ypos"			"0"
 		"tall"			"f0"
-		"wide"			"5" // This gets slammed from client schme.  GG. (Nokk) - nice :) (Jakadak)
+		"wide"			"5" // This gets slammed from client schme.  GG. (Nokk)
 		"zpos"			"1000"
 		"nobuttons"		"1"
 		"proportionaltoparent"	"1"
-
+		
 		"Slider"
 		{
 			"fgcolor_override"	"TanDark"

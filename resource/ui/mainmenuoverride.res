@@ -1320,28 +1320,49 @@
 	//START OF MENU
 	"ahudLabel"
 	{
-		"ControlName"	"CExButton"
-		"fieldName"		"ahudLabel"
-		"font"			"aRegular20"
-		"labelText"		"ahud"
-		"textAlignment"	"center"
-		"xpos"			"r140"
-		"ypos"			"cs-0.5-112"
-		"wide"			"80"
-		"tall"			"20"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"sound_depressed"			"vo/heavy_battlecry05.mp3"
-		"sound_released"			""
-		"proportionaltoparent"	"1"
+		"ControlName"		"EditablePanel"
+		"fieldName"			"ahudLabel"
+		"xpos"				"r140"
+		"ypos"				"c-120"
+		"zpos"				"1"
+		"wide"				"80"
+		"tall"				"20"
 
-		"fgcolor_override"			"ahudWhite"
-		"border_default"			"NoBorder"
-		"border_armed"				"NoBorder"
-		"paintbackground"			"0"
-	}
+		"SubButton"
+		{
+			"ControlName"				"CExImageButton"
+			"fieldName"					"SubButton"
+			"xpos"						"0"
+			"ypos"						"0"
+			"wide"						"80"
+			"tall"						"20"
+			"autoResize"				"0"
+			"pinCorner"					"3"
+			"tabPosition"				"0"
+			"labelText"					"ahud"
+			"font"						"aRegular20"
+			"textAlignment"				"center"
+			"dulltext"					"1"
+			"brighttext"				"1"
+			"default"					"1"
+	
+			"sound_depressed"			"vo/heavy_battlecry05.mp3"
+			"sound_released"			""
+			"visible"					"1"
+			"enabled"					"1"
 		
+			"defaultFgColor_override"	"HudBlack"
+			"armedFgColor_override"		"HudBlack"
+			"depressedFgColor_override"	"HudBlack"
+			
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
+			"paintbackground"			"0"
+
+		}
+	}
+	
+	
 	"MainMenuSideBG"
 	{
 		"ControlName"	"EditablePanel"
@@ -1422,7 +1443,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"•"
-		"font"			"aRegular10"
+		"font"			"aRegular16"
 		"textAlignment"	"center"
 		"command"		"open_rank_type_menu"
 		"default"		"1"
@@ -2667,7 +2688,7 @@
 			"paintbackground"			"0"
 		}
 	}
-	"HUD_ReloadButtom"
+	"HUD_ReloadButtom"//for editors
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"HUD_ReloadButtom"
@@ -2699,8 +2720,8 @@
 	
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			"visible"					"1"
-			"enabled"					"1"
+			"visible"					"0"
+			"enabled"					"0"
 		
 			"defaultFgColor_override"	"HudBlack"
 			"armedFgColor_override"		"HudPanelBorder"
@@ -2712,7 +2733,7 @@
 
 		}
 	}
-	"HUDmat_antialias"
+	"HUDmat_antialias"//for editors
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"HUDmat_antialias"
@@ -2743,8 +2764,8 @@
 	
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			"visible"					"1"
-			"enabled"					"1"
+			"visible"					"0"
+			"enabled"					"0"
 		
 			"defaultFgColor_override"	"HudBlack"
 			"armedFgColor_override"		"HudPanelBorder"
@@ -2785,8 +2806,8 @@
 	
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			"visible"					"1"
-			"enabled"					"1"
+			"visible"					"0"
+			"enabled"					"0"
 		
 			"defaultFgColor_override"	"HudBlack"
 			"armedFgColor_override"		"HudPanelBorder"
@@ -2983,9 +3004,8 @@
 			"paintbackground"	"0"
 			"paintborder"		"0"
 			
-			"image_drawcolor"		"242 242 242 255"
-			"image_armedcolor"		"244 114 43 255"			
-			"image_depressedcolor"	"244 114 43 255"			
+			"image_drawcolor"		"242 242 242 255"		
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -3217,6 +3237,26 @@
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"0"
 				"keyboardinputenabled" "0"
+				
+			//	"CcreatorlabelUrl"
+			//	{
+			//		"ControlName"			"URLLabel"
+			//		"fieldName"				"CcreatorlabelUrl"
+			//		"xpos"					"0"
+			//		"ypos"					"0"
+			//		"zpos"					"2"
+			//		"wide"					"f0"
+			//		"tall"					"f0"
+			//		"font"					""
+			//		"labelText"				""
+			//		"enabled"				"1"
+			//		"visible"				"1"
+			//		"paintBackground"		"0"
+			//		"textAlignment"			"west"
+			//		"fgcolor_override"		"HudWhite"
+			//		"proportionaltoparent"	"1"
+			//		"urlText"				"https://creators.tf/store"
+			//	}
 			}
 		}
 	}
