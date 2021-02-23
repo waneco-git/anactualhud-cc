@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture"	"vgui/replay/thumbnails/creators/ccreatorstf"
+	"$basetexture"	"vgui/replay/thumbnails/creators/ccontracker"
 	"$translucent" "1"
 	"$ignorez" "1"
 	"$vertexcolor" "1"

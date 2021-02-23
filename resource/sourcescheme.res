@@ -1,4 +1,5 @@
 #base "SourceSchemeBase.res"
+#base "scheme/net_graph.res"
 
 Scheme
 {

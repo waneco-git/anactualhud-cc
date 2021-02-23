@@ -21,6 +21,3 @@
 **Console**: ?  
 
 [Report bugs here](https://github.com/jakadak/ahud-cc/issues/new/choose)
-## Change log
-[Jakadak change log](https://pastebin.com/raw/D3f63S5e)  
-[Ahud change log](https://github.com/n0kk/ahud/commits/master)

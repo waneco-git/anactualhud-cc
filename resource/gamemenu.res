@@ -53,7 +53,7 @@
 		"label"			"H"
 		"command"		"engine exec mm_override.cfg"
 		"tooltip"		"competive requires"
-		"OnlyInGame"	""
+		"OnlyInGame"	"0"
 	}
 	"AimBotAlert"
 	{
@@ -114,7 +114,7 @@
 	"Ccreatorlabel"
 	{
 		"label"			""
-		"command"		"engine cl_disablehtmlmotd 0; say_team !s; cancelselect"
+		"command"		"engine"
 		"tooltip"		""
 		"OnlyInGame"	"1"
 	}

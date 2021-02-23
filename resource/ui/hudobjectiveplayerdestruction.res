@@ -92,7 +92,7 @@
 		"tall"						"100"//20
 		"visible"					"0"
 		"enabled"					"1"
-		"bgcolor_override"			"Blank"//HudBlackDarker
+		"bgcolor_override"			"0 0 0 0"//HudBlackDarker
 	
 		"CarriedImage"
 		{
@@ -122,7 +122,7 @@
 			"scaleimage"			"0"
 			"visible"				"0"
 		}
-		"White"
+		"WhiteBG"
 		{
 			"ControlName"			"EditablePanel"
 			"fieldName"				"WhiteBG"
