@@ -100,27 +100,6 @@
 		}
 	}
 	
-	"CreateServerEntry"
-	{
-		"ControlName"	"CPlayListEntry"
-		"fieldName"		"CreateServerEntry"
-		"xpos"			"0"
-		"ypos"			"253"
-		"tall"			"45"
-		"wide"			"255"
-		"proportionaltoparent"	"1"
-
-		"image_name"		"main_menu/main_menu_button_custom_server"
-		"button_token"		"#MMenu_PlayList_CreateServer_Button"
-		"button_command"	"create_server"
-		"desc_token"		"#MMenu_PlayList_CreateServer_Desc"
-
-		if_event
-		{
-			"ypos"			"303"
-		}
-	}
-	
 	"TrainingEntry"
 	{
 		"ControlName"	"CPlayListEntry"
@@ -139,6 +118,27 @@
 		if_event
 		{
 			"ypos"			"253"
+		}
+	}
+	
+	"CreateServerEntry"
+	{
+		"ControlName"	"CPlayListEntry"
+		"fieldName"		"CreateServerEntry"
+		"xpos"			"0"
+		"ypos"			"253"
+		"tall"			"45"
+		"wide"			"255"
+		"proportionaltoparent"	"1"
+
+		"image_name"		"main_menu/main_menu_button_custom_server"
+		"button_token"		"#MMenu_PlayList_CreateServer_Button"
+		"button_command"	"create_server"
+		"desc_token"		"#MMenu_PlayList_CreateServer_Desc"
+
+		if_event
+		{
+			"ypos"			"303"
 		}
 	}
 
@@ -163,7 +163,7 @@
 	}
 	"CModeButton"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"CExButton" //EditablePanel
 		"fieldName"		"CModeButton"
 		"xpos"			"127"
 		"ypos"			"304"
@@ -181,7 +181,7 @@
 		"proportionaltoparent" "1"
 		"actionsignallevel"	"2"
 
-		//"border_armed"		"ahudMenuBorder" //Does not works
+		//"border"		"ahudMenuBorder"
 		"paintbackground"	"0"
 
 		"defaultFgColor_override"	"ahudWhite"
@@ -214,7 +214,7 @@
 		
 		if_event
 		{
-			"ypos"			"371"
+			"ypos"			"370"
 		}
 	}
 
@@ -240,12 +240,8 @@
 		"pin_to_sibling"		"CDescLabel"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
-		
-		if_event
-		{
-			"ypos"			"353"
-		}
 	}
+		
 	"CBGPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -282,6 +278,10 @@
 			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+		}
+		if_event
+		{
+			"ypos"			"353"
 		}
 	}
 	"ScrollBar"

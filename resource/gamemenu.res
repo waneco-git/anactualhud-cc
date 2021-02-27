@@ -100,7 +100,7 @@
 	"HUDmat_antialias"
 	{
 		"label"			"J"
-		"Command"		"engine vgui_cache_res_files 0; incrementvar mat_antialias 1 2 1; vgui_cache_res_files 1"
+		"Command"		"engine vgui_cache_res_files 0; incrementvar mat_antialias 1 2 1; hud_reloadscheme; vgui_cache_res_files 1"
 		"tooltip"		""
 		"OnlyInGame"	"0"
 	}
