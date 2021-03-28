@@ -2803,6 +2803,8 @@
 			"dulltext"					"1"
 			"brighttext"				"1"
 			"default"					"1"
+			"use_proportional_insets"	"1"
+
 	
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
@@ -2810,6 +2812,93 @@
 			"enabled"					"0"
 		
 			"defaultFgColor_override"	"HudBlack"
+			"armedFgColor_override"		"HudPanelBorder"
+			"depressedFgColor_override"	"HudPanelBorder"
+			
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
+			"paintbackground"			"0"
+
+		}
+	}
+	"Consolebutton"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"Consolebutton"
+		"xpos"				"r110"
+		"ypos"				"368"
+		"zpos"				"1"
+		"wide"				"21"
+		"tall"				"18"
+		"visible"			"1"
+
+		"SubButton"
+		{
+			"ControlName"				"CExImageButton"
+			"fieldName"					"SubButton"
+			"xpos"						"0"
+			"ypos"						"0"
+			"wide"						"21"
+			"tall"						"18"
+			"autoResize"				"0"
+			"pinCorner"					"3"
+			"tabPosition"				"0"
+			"font"						"AHUDicons13"
+			"textAlignment"				"center"
+			"dulltext"					"0"
+			"brighttext"				"0"
+			"default"					"1"
+			"use_proportional_insets"	"1"
+	
+			"sound_depressed"			"UI/buttonclick.wav"
+			"sound_released"			"UI/buttonclickrelease.wav"
+			"visible"					"1"
+			"enabled"					"1"
+		
+			"defaultFgColor_override"	"255 255 255 25"
+			"armedFgColor_override"		"HudPanelBorder"
+			"depressedFgColor_override"	"HudPanelBorder"
+			
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
+			"paintbackground"			"0"
+
+		}
+	}
+	"ScoreboardButton"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"ScoreboardButton"
+		"xpos"				"r180"
+		"ypos"				"364"
+		"zpos"				"1"
+		"wide"				"85"
+		"tall"				"25"
+
+		"SubButton"
+		{
+			"ControlName"				"CExImageButton"
+			"fieldName"					"SubButton"
+			"xpos"						"0"
+			"ypos"						"0"
+			"wide"						"85"
+			"tall"						"25"
+			"autoResize"				"0"
+			"pinCorner"					"3"
+			"tabPosition"				"0"
+			"font"						"aRegular10"
+			"textAlignment"				"center"
+			"dulltext"					"1"
+			"brighttext"				"1"
+			"default"					"1"
+			"use_proportional_insets"	"1"
+	
+			"sound_depressed"			"UI/buttonclick.wav"
+			"sound_released"			"UI/buttonclickrelease.wav"
+			"visible"					"1"
+			"enabled"					"1"
+		
+			"defaultFgColor_override"	"255 255 255 25"//51
 			"armedFgColor_override"		"HudPanelBorder"
 			"depressedFgColor_override"	"HudPanelBorder"
 			

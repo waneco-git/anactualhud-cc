@@ -111,6 +111,20 @@
 		"tooltip"		""
 		"OnlyInGame"	"0"
 	}
+	"Consolebutton"
+	{
+		"label"			"h"
+		"command"		"engine showconsole"
+		"tooltip"		""
+		"OnlyInGame"	"0"
+	}
+	"ScoreboardButton"
+	{
+		"label"			"Scoreboard"
+		"command"		"engine toggle cl_hud_minmode"
+		"tooltip"		""
+		"OnlyInGame"	"0"
+	}
 	"Ccreatorlabel"
 	{
 		"label"			""
