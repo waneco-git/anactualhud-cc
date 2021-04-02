@@ -676,18 +676,8 @@ Scheme
 		}
 		"12"
 		{
-			"font" "resource/fonts/Blocks.ttf"
-			"name" "Blocks"
-		}
-		"13"
-		{
 			"font" "resource/fonts/Ahud Icons.ttf"
 			"name" "Ahud Icons"
-		}
-		"14"
-		{
-			"font"	"resource/fonts/Icons.otf"
-			"name"	"Icons"
 		}
 	}
 }
