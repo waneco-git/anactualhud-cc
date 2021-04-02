@@ -411,11 +411,6 @@ Scheme
 		}
 		"8"
 		{
-			"font" "resource/fonts/Blocks.ttf"
-			"name" "Blocks"
-		}
-		"8"
-		{
 			"font"	"resource/fonts/CodeProBold.otf"
 			"name"	"Code-Pro-Bold"
 			"bulgarian"
@@ -501,7 +496,7 @@ Scheme
 		}
 		"9"
 		{
-			"font"	"resource/fonts/CodeProLC.otf"
+			"font"	"resource/fonts/CodeProLC.ttf"
 			"name"	"Code-Pro-LC"
 			"bulgarian"
 			{
@@ -586,7 +581,7 @@ Scheme
 		}
 		"10"
 		{
-			"font" "resource/fonts/CodeProBoldLC.otf"
+			"font" "resource/fonts/CodeProBoldLC.ttf"
 			"name" "Code-Pro-Bold-LC"
 			"bulgarian"
 			{
@@ -678,6 +673,11 @@ Scheme
 		{
 			"font" "resource/fonts/Ahud Icons.ttf"
 			"name" "Ahud Icons"
+		}
+		"13"
+		{
+			"font"	"resource/fonts/Icons.ttf"
+			"name"	"Icons"
 		}
 	}
 }
