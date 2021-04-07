@@ -1,6 +1,6 @@
 # So, what is so special?  
 This HUD has unique buttons special design for creators.tf servers.  
-Like inventory, store, contractor, contract progress and more...  
+Like buttons fpr inventory, store, contractor, contract progress and more...  
 ![Like this](https://i.imgur.com/NDOAdlx.png)  
   
 [Screenshots](https://imgur.com/a/QQvA4dr)  
