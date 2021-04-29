@@ -1,8 +1,9 @@
-# So, what is so special?  
-This HUD has unique buttons special design for creators.tf servers.  
-Like buttons fpr inventory, store, contractor, contract progress and more...  
-![Like this](https://i.imgur.com/NDOAdlx.png)  
-  
+# So, is there anything special?  
+Yes, there is! This HUD has buttons especially made for creators.tf servers.  
+Like buttons for inventory, store, contractor, contract progress, and more...  
+![Like this](https://i.imgur.com/NDOAdlx.png?1)  
+There are more optional customizations and some edits to improve your experience.
+
 [Screenshots](https://imgur.com/a/QQvA4dr)  
 ## Quide
 [Installation](https://github.com/jakadak/ahud-cc/wiki/Installation)  
