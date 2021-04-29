@@ -5,7 +5,7 @@ Yes, there is! This HUD has buttons especially made **for creators.tf** servers.
 Like buttons for inventory, store, contractor, contract progress, and more...   
 There are **more optional customizations** and some edits to improve your experience.   
 
-[SLAP](https://imgur.com/a/QQvA4dr) this button to see screenshots.  
+[SLAP](https://imgur.com/a/QQvA4dr) this button to see more screenshots.  
 
 ## Quide
 [Installation](https://github.com/jakadak/ahud-cc/wiki/Installation)  
