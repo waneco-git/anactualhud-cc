@@ -1,10 +1,12 @@
 # So, is there anything special?  
-Yes, there is! This HUD has buttons especially made **for creators.tf** servers.  
-Like buttons for inventory, store, contractor, contract progress, and more...  
-There are **more optional customizations** and some edits to improve your experience.  
-![Like this](https://i.imgur.com/NDOAdlx.png?1)  
+<img align="right" width="20%" src="https://i.imgur.com/NDOAdlx.png?1">  
 
-[Screenshots](https://imgur.com/a/QQvA4dr)  
+Yes, there is! This HUD has buttons especially made **for creators.tf** servers.   
+Like buttons for inventory, store, contractor, contract progress, and more...   
+There are **more optional customizations** and some edits to improve your experience.   
+
+[SLAP](https://imgur.com/a/QQvA4dr) this button to see screenshots.  
+
 ## Quide
 [Installation](https://github.com/jakadak/ahud-cc/wiki/Installation)  
 [Customization](https://github.com/jakadak/ahud-cc/wiki/Customization)  
