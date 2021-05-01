@@ -1,5 +1,5 @@
 # So, is there anything special?  
-<img align="right" width="20%" src="https://i.imgur.com/JyEwVEU.png">  
+<img align="right" width="15%" src="https://i.imgur.com/JyEwVEU.png">  
 
 Yes, there is! This HUD has buttons especially made **for creators.tf** servers.   
 Like buttons for inventory, store, contractor, contract progress, and more...   
