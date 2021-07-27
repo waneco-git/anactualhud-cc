@@ -116,61 +116,61 @@
 		"label"			"h"
 		"command"		"engine showconsole"
 		"tooltip"		""
-		"OnlyInGame"	"0"
+		"OnlyInGame"	"1"
 	}
 	"ScoreboardButton"
 	{
 		"label"			"Scoreboard"
 		"command"		"engine toggle cl_hud_minmode"
 		"tooltip"		""
-		"OnlyInGame"	"0"
+		"OnlyInGame"	"1"
 	}
 	"Ccreatorlabel"
 	{
 		"label"			""
-		"command"		"engine"
+		"command"		"engine cl_disablehtmlmotd 0; sm_w; cancelselect"
 		"tooltip"		""
 		"OnlyInGame"	"1"
 	}
 	"CCampaign"
 	{
 		"label"			""
-		"command"		"engine cl_disablehtmlmotd 0; say_team !ca; cancelselect"
+		"command"		"engine cl_disablehtmlmotd 0; sm_ca; cancelselect"
 		"tooltip"		""
 		"OnlyInGame"	"1"
 	}
 	"CContracker"
 	{
 		"label"			""
-		"command"		"engine cl_disablehtmlmotd 0; say_team !c; cancelselect"
+		"command"		"engine cl_disablehtmlmotd 0; sm_c; cancelselect"
 		"tooltip"		""
 		"OnlyInGame"	"1"
 	}
 	"Cprogress"
 	{
 		"label"			""
-		"command"		"engine cl_disablehtmlmotd 0; say_team !contract; cancelselect"
+		"command"		"engine cl_disablehtmlmotd 0; /contract; cancelselect"
 		"tooltip"		""
 		"OnlyInGame"	"1"
 	}
 	"CStore"
 	{
 		"label"			""
-		"command"		"engine cl_disablehtmlmotd 0; say_team !store; cancelselect"
+		"command"		"engine cl_disablehtmlmotd 0; say !store; cancelselect"
 		"tooltip"		""
 		"OnlyInGame"	"1"
 	}
 	"Cloadout"
 	{
 		"label"			""
-		"command"		"engine cl_disablehtmlmotd 0; say_team !l; cancelselect"
+		"command"		"engine cl_disablehtmlmotd 0; sm_l; cancelselect"
 		"tooltip"		""
 		"OnlyInGame"	"1"
 	}
 	"Citems"
 	{
 		"label"			""
-		"command"		"engine cl_disablehtmlmotd 0; say_team !i; cancelselect"
+		"command"		"engine cl_disablehtmlmotd 0; sm_i; cancelselect"
 		"tooltip"		""
 		"OnlyInGame"	"1"
 	}

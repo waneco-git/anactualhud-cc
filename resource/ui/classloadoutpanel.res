@@ -532,7 +532,7 @@
 		"textAlignment"		"center"
 		"font"				"aRegular16"
 		"scaleImage"		"1"
-		"command"			"engine cancelselect;cancelselect; say !l"
+		"command"			"engine cancelselect;cancelselect; sm_l"
 		
 		"defaultFgColor_override" "237 108 40 255"
 		"armedFgColor_override" "242 242 242 255"

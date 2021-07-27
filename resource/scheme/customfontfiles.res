@@ -1,5 +1,6 @@
 //Font range explenation: https://en.wikipedia.org/wiki/List_of_Unicode_characters
 //Font chacker: https://www.alphabet-type.com/tools/charset-checker/
+//created by Jakadak https://github.com/jakadak/TF2-extended-fonts
 
 Scheme
 {
@@ -10,7 +11,7 @@ Scheme
 		"3"
 		{
 		"font" "resource/fonts/TF2.ttf"
-		"name" "TF2" //created by Jakadak https://github.com/jakadak/TF2-extended-fonts
+		"name" "TF2"
 		
 			"russian"
 			{
@@ -92,7 +93,7 @@ Scheme
 		"4" 
 		{
 		"font" "resource/fonts/TF2Secondary.ttf"
-		"name" "TF2 Secondary" //created by Jakadak https://github.com/jakadak/TF2-extended-fonts
+		"name" "TF2 Secondary"
 		
 			"russian"
 			{
@@ -174,7 +175,7 @@ Scheme
 		"5" 
 		{
 		"font" "resource/fonts/TF2Professor.ttf"
-		"name" "TF2 Professor" //created by Jakadak https://github.com/jakadak/TF2-extended-fonts
+		"name" "TF2 Professor"
 
 			"russian"
 			{
@@ -256,7 +257,7 @@ Scheme
 		"6" 
 		{
 		"font" "resource/fonts/TF2Build.ttf"
-		"name" "TF2 Build" //created by Jakadak https://github.com/jakadak/TF2-extended-fonts
+		"name" "TF2 Build"
 		
 			"russian"
 			{
@@ -340,6 +341,14 @@ Scheme
 		"font"	"resource/fonts/ocra.ttf"
 		"name" "ocra"	
 
+			"russian"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"ukrainian"
+			{
+				"range" "0x0020 0x2116"
+			}
 			"bulgarian"
 			{
 				"range" "0x0020 0x2116"
@@ -411,7 +420,12 @@ Scheme
 		}
 		"8"
 		{
-			"font"	"resource/fonts/CodeProBold.otf"
+			"font" "resource/fonts/Blocks.ttf"
+			"name" "Blocks"
+		}
+		"8"
+		{
+			"font"	"resource/fonts/CodeProBold.ttf"
 			"name"	"Code-Pro-Bold"
 			"bulgarian"
 			{
@@ -671,10 +685,15 @@ Scheme
 		}
 		"12"
 		{
+			"font" "resource/fonts/Blocks.ttf"
+			"name" "Blocks"
+		}
+		"13"
+		{
 			"font" "resource/fonts/Ahud Icons.ttf"
 			"name" "Ahud Icons"
 		}
-		"13"
+		"14"
 		{
 			"font"	"resource/fonts/Icons.ttf"
 			"name"	"Icons"

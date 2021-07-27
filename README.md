@@ -1,12 +1,5 @@
-# So, is there anything special?  
-<img align="right" width="15%" src="https://i.imgur.com/JyEwVEU.png">  
-
-Yes, there is! This HUD has buttons especially made **for creators.tf** servers.   
-Like buttons for inventory, store, contractor, contract progress, and more...   
-There are **more optional customizations** and some edits to improve your experience.   
-
-[SLAP](https://imgur.com/a/QQvA4dr) this button to see more screenshots.  
-
+### AHUD with support of creative.tf commands.  
+[Screenshots](https://imgur.com/a/QQvA4dr)  
 ## Quide
 [Installation](https://github.com/jakadak/ahud-cc/wiki/Installation)  
 [Customization](https://github.com/jakadak/ahud-cc/wiki/Customization)  
