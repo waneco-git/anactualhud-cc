@@ -5,4 +5,4 @@ To use one of the custom features:
 3. Replace all the files when prompted
 4. Run TF2
 
-[CHECK AHUD-CC WIKI ON GITHUB](https://github.com/jakadak001/ahud-cc/wiki)
+[CHECK AHUD-CC WIKI ON GITHUB](https://github.com/jakadak/ahud-cc/wiki)
