@@ -514,38 +514,6 @@
 			"image"			"glyph_items"
 		}
 	}
-	"CreatorsButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"CreatorsButton"
-		"xpos"				"483"
-		"ypos"				"340"
-		"zpos"				"12"	
-		"wide"				"25"
-		"tall"				"25"
-		"autoResize"		"1"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			"C"
-		"textAlignment"		"center"
-		"font"				"aRegular16"
-		"scaleImage"		"1"
-		"command"			"engine cancelselect;cancelselect; sm_l"
-		
-		"defaultFgColor_override" "237 108 40 255"
-		"armedFgColor_override" "242 242 242 255"
-		"armedBgColor_override"	"237 108 40 255"
-		"depressedFgColor_override" "242 242 242 255"
-		"depressedBgColor_override"	"237 108 40 255"
-		
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		
-		"keyboardinputenabled"	"0"
-		"paintbackground"	"1"
-	}
 	"TauntLoadoutButton"
 	{
 		"ControlName"	"CExImageButton"

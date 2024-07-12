@@ -28,6 +28,11 @@
 		"padding_height"	"10"
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
+		
+		"alpha_minmode"		"0"
+		//"xpos_minmode"	"9999"
+		//"wide_minmode"	"0"
+
 
 		"itemmodelpanel"
 		{
@@ -55,6 +60,9 @@
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
+			
+			"font_minmode"	"StreamerMode12"
+			"alpha_minmode"	"50" //or this??
 		}
 	}
 
@@ -94,7 +102,7 @@
 			"zpos"			"1"
 			"wide"			"131"
 			"tall"			"10"
-			"autoResize"		"0"
+			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -102,6 +110,9 @@
 			"textAlignment"		"west"
 			"dulltext"		"0"
 			"brighttext"		"0"
+			"font"			"aRegular11"
+			"font_minmode"	"StreamerMode11"
+			"alpha_minmode"	"50"
 		}
 
 		"FreezePanelHealth"
@@ -127,6 +138,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreezeLabelKiller"
 			"font"			"aRegular11"
+			
 			"fgcolor"		"ahudWhite"
 			"xpos"			"54"
 			"ypos"			"11"
@@ -138,7 +150,9 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%killername%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
+			"font_minmode"	"StreamerMode11"
+			"alpha_minmode"	"50"
 		}
 		"FreezeLabelKillerShadow"
 		{
@@ -157,6 +171,8 @@
 			"enabled"		"1"
 			"labelText"		"%killername%"
 			"textAlignment"		"west"
+			"font_minmode"	"StreamerMode11"
+			"alpha_minmode"	"50"
 
 			"pin_to_sibling"	"FreezeLabelKiller"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"

@@ -10,6 +10,7 @@
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"		"0"
 		"scaleImage"	"1"
+		"alpha_minmode"	"0"
 	}
 
 	"InteractButton"
@@ -52,6 +53,7 @@
 		"labelText"				"%name%"
 		"proportionaltoparent"	"1"
 		"font"					"aRegular10"
+		"font_minmode"			"StreamerMode10"
 		"mouseinputenabled"		"0"
 	}
 

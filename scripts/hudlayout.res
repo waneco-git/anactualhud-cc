@@ -1,22 +1,8 @@
+#base "../../cfg/ahudcc/hud_hudlayout_transparent.txt"
+#base "hudlayout_transparentON.res"
+
 "Resource/HudLayout.res"
 {	
-	"TransparentViewmodelMask" //curante state: OFF
-	{
-		//alpha doesn't work for this, you need to change the texture's alpha
-		"ControlName"	"ImagePanel"
-		"fieldName"		"TransparentViewmodelMask"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-100"
-		"wide"			"f0"
-		"tall"			"480"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"replay/thumbnails/REFRACTnormal_transparent"
-		"scaleImage"	"1"
-	}
-	//--------------------------------------------------------------
-
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
@@ -468,6 +454,8 @@
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
 		"TextFont"		"aRegular10"
+		"TextFont_minmode"		"StreamerMode10"
+		"alpha_minmode"	"75"
 		
 		"TeamBlue"		"ahudBlue"
 		"TeamRed"		"ahudRed"
@@ -723,6 +711,7 @@
 		"icon_wide"			"16"
 		
 		"text_xpos"			"33"
+		"text_xpos_minmode"	"9999"
 	}
 
 	HudHintDisplay
@@ -1402,6 +1391,7 @@
 		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"f0"
+		"player_name_font_minmode"		""
 	}
 
 	MatchSummary
@@ -1541,5 +1531,16 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"fillcolor"		"255 0 0 255"
+	}
+	"CurrencyStatusPanel" //MvM money fix
+	{
+		"ControlName"		"CCurrencyStatusPanel"
+		"fieldName"			"CurrencyStatusPanel"
+		"xpos"				"c-202"
+		"ypos"				"r56"
+		"wide"				"100"
+		"tall"				"16"
+		"visible" 			"1"
+		"enabled" 			"1"
 	}
 }

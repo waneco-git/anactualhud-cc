@@ -1968,7 +1968,7 @@
 		"tall"			"41"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""
+		"image"			"../../materials/vgui/class_portraits_blue"
 		"scaleImage"	"1"
 	}
 	"TipText"
@@ -2008,6 +2008,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"nexttip"
+		"font"			"aRegular10"
 	}
 	"ResetStatsButton" [$WIN32]
 	{
@@ -2028,6 +2029,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"resetstatsbutton"
+		"font"			"aRegular10"
 	}
 	"CloseButton" [$WIN32]
 	{

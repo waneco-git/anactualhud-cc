@@ -10,7 +10,8 @@
 		"zpos"			"1001"
 		"wide"			"280"
 		"tall"			"f0"
-		"visible"		"1"
+		"visible"		"0" //dont know why was this turned on
+		"enable"		"0"
 		"proportionaltoparent"	"1"
 	}
 
@@ -34,13 +35,13 @@
 
 	"playlist"
 	{
-	//	"ControlName"	"CTFPlaylistPanel"
+		"ControlName"	"CTFPlaylistPanel"
 		"fieldName"		"playlist"
 		"xpos"			"8"
 		"ypos"			"50"
 		"zpos"			"100"
 		"wide"			"255"
-		"tall"			"365"
+		"tall"			"405"//365
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}

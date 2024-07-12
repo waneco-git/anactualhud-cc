@@ -1,3 +1,6 @@
+#base "../../cfg/ahudcc/hud_fonts.txt"
+#base "fonts_def.res"
+
 Scheme
 {
 	Fonts
@@ -1014,31 +1017,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Verdana" //Verdana
 				"tall"		"10"
 				"weight"	"900"
 				"range"		"0x0000 0x04FF" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"outline"	"1"
 			}
-		}
-
-		"Default"
-		{
-			"1"
-			{
-				"name"		"Code-Pro-LC"
-				"tall"		"10"
-				"additive"	"0"
-				"antialias" 	"1"
-			}
-			"2"
-			{
-				"name"		"Arial"
-				"tall"		"12"
-				"range" 		"0x0000 0xFFFF"
-				"weight"	"800"
-			}
-
 		}
 		"DefaultUnderline"
 		{
@@ -1062,7 +1046,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Verdana" //Verdana
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x04FF"
@@ -1116,7 +1100,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Verdana" //Verdana
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x04FF"
@@ -1158,7 +1142,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		DefaultLarge
+		DefaultLarge //Verdana
 		{
 			"1"
 			{
@@ -2075,54 +2059,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"ScoreboardVerySmall"
-		{
-			"1"
-			{
-				"name"		"Code-Pro-LC"
-				"tall"		"9"
-				"tall_hidef"	"12"
-				"tall_lodef"	"14"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"ScoreboardSmall"
-		{
-			"1"
-			{
-				"name"		"Code-Pro-LC"
-				"tall"		"10"
-				"tall_hidef"	"12"
-				"tall_lodef"	"14"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"ScoreboardMediumSmall"
-		{
-			"1"
-			{
-				"name"		"Code-Pro-LC"
-				"tall"		"10"
-				"weight"	"500"
-				"antialias" "1"
-				"additive"	"0"
-			}
-		}
-		"ScoreboardMedium"
-		{
-			"1"
-			{
-				"name"		"Code-Pro-LC"
-				"tall"		"20"
-				"weight"	"500"
-				"antialias" "1"
-				"additive"	"0"
-			}
-		}
 		"ScoreboardTeamName"
 		{
 			"1"
@@ -2140,7 +2076,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Code-Pro-LC"
+				"name"		"Streamer Mode" //Code-Pro-LC"
 				"tall"		"14"
 				"weight"	"500"
 				"antialias" "1"
@@ -2707,7 +2643,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Verdana" //Verdana
 				"tall"		"10"
 				"weight"	"0"
 				"range"		"0x0000 0x04FF"
@@ -2904,7 +2840,6 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"10"
 				"weight"	"400"
@@ -2914,7 +2849,6 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"14"
 				"weight"	"400"
@@ -2924,7 +2858,6 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"	
 				"tall"		"18"
 				"weight"	"400"
@@ -2938,7 +2871,6 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"10"
 				"weight"	"800"
@@ -2948,7 +2880,6 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"14"
 				"weight"	"800"
@@ -2958,7 +2889,6 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"18"
 				"weight"	"800"
@@ -2972,7 +2902,6 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"16"
 				"weight"	"400"
@@ -3450,7 +3379,6 @@ Scheme
 			{
 				"name"		"ocra"
 				"tall"		"7"
-				"weight"	"0"
 				"blur"		"3"
 				"additive"	"1"
 				"antialias" 	"1"
@@ -3463,7 +3391,13 @@ Scheme
 			{
 				"name"		"ocra"
 				"tall"		"7"
-				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+			"2"
+			{
+				"name"		"ocra"
+				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -3475,7 +3409,6 @@ Scheme
 			{
 				"name"		"ocra"
 				"tall"		"10"
-				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -3487,7 +3420,6 @@ Scheme
 			{
 				"name"		"ocra"
 				"tall"		"14"
-				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -3499,23 +3431,22 @@ Scheme
 			{
 				"name"		"ocra"
 				"tall"		"30"
-				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
 			}
 		}
 //
 //////////////////// EXTENSIONAL FONTS //////////////////////////////
-		"Blocks 64"
-		{
-			"1"
-			{
-				"name"			"Blocks"
-				"tall"			"64"
-				"additive"		"0"
-				"antialias"		"0"
-			}
-		}
+		//"Blocks 64"
+		//{
+		//	"1"
+		//	{
+		//		"name"			"Blocks"
+		//		"tall"			"64"
+		//		"additive"		"0"
+		//		"antialias"		"0"
+		//	}
+		//}
 		
 		"ReadyUp 20"
 		{
@@ -3536,6 +3467,66 @@ Scheme
 				"tall"			"24"
 				"additive"  	"0"
 				"antialias"		"1"
+			}
+		}
+		"ocra8"
+		{
+			"1"
+			{
+				"name"		"ocra"
+				"tall"		"8"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ocra9"
+		{
+			"1"
+			{
+				"name"		"ocra"
+				"tall"		"9"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ocra10"
+		{
+			"1"
+			{
+				"name"		"ocra"
+				"tall"		"10"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ocra11"
+		{
+			"1"
+			{
+				"name"		"ocra"
+				"tall"		"11"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ocra12"
+		{
+			"1"
+			{
+				"name"		"ocra"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ocra13"
+		{
+			"1"
+			{
+				"name"		"ocra"
+				"tall"		"13"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"aBoldRegular7"
@@ -3955,40 +3946,6 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-				"MenuArrows"
-		{
-			"1"
-			{
-				"name"			"Icons"
-				"tall"			"15"
-				"weight"		"400"
-				"additive"		"0"
-				"antialias" 	"1"
-			}
-		}
-
-		"ClassIcons"
-		{
-			"1"
-			{
-				"name"			"Icons"
-				"tall"			"62"
-				"weight"		"0"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-
-		"CustomIcons"
-		{
-			"1"
-			{
-				"name"			"Icons"
-				"tall"			"18"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
 
 		"LargeIcons"
 		{
@@ -3998,6 +3955,86 @@ Scheme
 				"tall"			"62"
 				"additive"		"0"
 				"antialias"		"1"
+			}
+		}
+		"StreamerMode20"
+		{
+			"1"
+			{
+				"name"		"Streamer Mode"
+				"tall"		"20"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"StreamerMode14"
+		{
+			"1"
+			{
+				"name"		"Streamer Mode"
+				"tall"		"14"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"StreamerMode13"
+		{
+			"1"
+			{
+				"name"		"Streamer Mode"
+				"tall"		"13"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"StreamerMode12"
+		{
+			"1"
+			{
+				"name"		"Streamer Mode"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"StreamerMode11"
+		{
+			"1"
+			{
+				"name"		"Streamer Mode"
+				"tall"		"11"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"StreamerMode10"
+		{
+			"1"
+			{
+				"name"		"Streamer Mode"
+				"tall"		"10"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"StreamerMode9"
+		{
+			"1"
+			{
+				"name"		"Streamer Mode"
+				"tall"		"9"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"StreamerMode8"
+		{
+			"1"
+			{
+				"name"		"Streamer Mode"
+				"tall"		"8"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 	}

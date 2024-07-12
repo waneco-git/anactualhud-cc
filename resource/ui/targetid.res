@@ -96,6 +96,9 @@
 		"labelText"		"%targetname%"
 		"textAlignment"	"west"
 		"fgcolor_override"		"ahudWhite"
+		
+		"font_minmode"	"StreamerMode11"
+		"alpha_minmode"	"50"
 	}
 	"TargetNameLabelShadow"
 	{
@@ -112,6 +115,9 @@
 		"labelText"		"%targetname%"
 		"textAlignment"	"west"
 		"fgcolor_override"		"ShadowBlack"
+		
+		"font_minmode"	"StreamerMode11"
+		"alpha_minmode"	"50"
 
 		"pin_to_sibling"	"TargetNameLabel"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"

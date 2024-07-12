@@ -1,4 +1,4 @@
-"Resource/UI/HudMatchSummary.res"
+"Resource/UI/HudMatchSummary.res" ////////UPDATE
 {
 	"MatchSummary"
 	{
@@ -227,7 +227,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"50"
-			"wide"			"f0"
+			"wide"			"f0" //Stremer mode "0"
 			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -387,14 +387,16 @@
 					"zpos"			"20"
 					"wide"			"195"
 					"tall"			"20"
-					"autoResize"		"0"
+					"autoResize"	"0"
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
+					"alpha_minmode"	"50"
+
 				}
 				"BlueLeaderAvatar"
 				{
-					"ControlName"		"CAvatarImagePanel"
+					"ControlName"	"CAvatarImagePanel"
 					"fieldName"		"BlueLeaderAvatar"
 					"xpos"			"18"
 					"ypos"			"100"
@@ -406,6 +408,7 @@
 					"image"			""
 					"scaleImage"	"1"
 					"color_outline"	"52 48 45 255"
+					"alpha_minmode"	"50"
 
 					if_large
 					{
@@ -424,6 +427,7 @@
 					"visible"		"1"
 					"PaintBackgroundType"	"2"
 					"bgcolor_override"	"117 107 94 255"
+					"alpha_minmode"	"50"
 
 					if_large
 					{
@@ -441,6 +445,7 @@
 					"tall"			"215"
 					"visible"		"1"
 					"enabled"		"1"
+					"font_minmode"	"StreamerMode11"
 
 					if_large
 					{
@@ -473,6 +478,9 @@
 						"award_width"	"s.04"
 						"stats_width"	"s.08"
 						"horiz_inset"	"0"
+						"font_minmode"	"StreamerMode11"
+						
+						"alpha_minmode"	"50"
 
 						if_large
 						{
@@ -510,11 +518,11 @@
 				"xpos"			"320"
 				"ypos"			"0"
 				"zpos"			"0"
-				"wide"			"f0"
+				"wide"			"f0" //Stremer mode "0"
 				"tall"			"f0"
 				"visible"		"1"
 				"enabled"		"1"
-
+				
 				"RedTeamScoreBG"
 				{
 					"ControlName"		"EditablePanel"
@@ -676,6 +684,7 @@
 					"image"			""
 					"scaleImage"	"1"
 					"color_outline"	"52 48 45 255"
+					"alpha_minmode"	"50"
 
 					if_large
 					{
@@ -694,6 +703,7 @@
 					"visible"		"1"
 					"PaintBackgroundType"	"2"
 					"bgcolor_override"	"117 107 94 255"
+					"alpha_minmode"	"50"
 
 					if_large
 					{
@@ -711,6 +721,8 @@
 					"tall"			"215"
 					"visible"		"1"
 					"enabled"		"1"
+					"alpha_minmode"	"50"
+					"font_minmode"	"StreamerMode11"
 
 					if_large
 					{
@@ -734,6 +746,7 @@
 						"linespacing"	"25"
 						"linegap"		"0"
 						//"show_columns"	"1"
+						"font_minmode"	"StreamerMode11"
 
 						"medal_width"	"s.08"
 						"avatar_width"	"s.08"
@@ -765,6 +778,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"border"		"TFFatLineBorderClearBG"
+					"font_minmode"	"StreamerMode11"
 
 					if_large
 					{

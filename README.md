@@ -21,3 +21,11 @@
 **Console**: ?  
 
 [Report bugs here](https://github.com/jakadak/ahud-cc/issues/new/choose)
+
+Special thanks:
+Original aHUD developers: hikyle, n0kk, Critical Fow
+Basefile Script Integration: Hypnotize
+Item menu (charinfoloadoutsubpanel.res) + Class Icons + Icons: Hypnootize
+Side menu: Peaches
+
+Doodle & JarateKing for tutorials

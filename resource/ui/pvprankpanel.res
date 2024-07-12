@@ -218,6 +218,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"aRegular14"
+			"font_minmode"	"StremerMode14"
 			"fgcolor_override"	"ahudWhite"
 			"textAlignment"	"center"
 			"labelText"		"%name%"

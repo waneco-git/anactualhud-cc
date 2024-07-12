@@ -198,6 +198,9 @@
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
+			
+			"font_minmode"	"StreamerMode9"
+			"alpha_minmode"	"50"
 		}
 	}
 

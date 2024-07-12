@@ -287,7 +287,6 @@
 
 		if_match
 		{
-			"ypos_minmode"			"0"
 			"delta_item_x"			"31"
 			"delta_item_start_y"	"23"
 			"delta_item_end_y"		"43"
@@ -316,7 +315,6 @@
 			if_match
 			{
 				"ypos"			"9"
-				"ypos_minmode"	"9"
 			}
 		}
 	}
@@ -369,6 +367,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
 				"font"			"DefaultVerySmall"
+				"font_minmode"	"StreamerMode12"
 				"xpos"			"5"
 				"ypos"			"24"
 				"zpos"			"5"
@@ -377,6 +376,7 @@
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"0"
+				//"alpha_minmode"	"0"
 			}
 			"classimage"
 			{
@@ -585,7 +585,7 @@
 
 	"BlueTeamPanel"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"BlueTeamPanel"
 		"xpos"			"-155"
 		"ypos"			"125"
@@ -663,6 +663,7 @@
 			"image"			""
 			"scaleImage"	"1"
 			"color_outline"	"52 48 45 255"
+			"alpha_minmode"	"0"
 		}
 		"BlueLeaderAvatarBG"
 		{
@@ -676,6 +677,7 @@
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
 			"bgcolor_override"	"ahudDarkerBlue"
+			"alpha_minmode"	"0"
 		}
 		"BluePlayerList"
 		{
@@ -733,6 +735,7 @@
 		"tall"			"260"
 		"visible"		"1"
 		"enabled"		"1"
+		"alpha_minmode"	"0"
 
 		if_large
 		{
@@ -802,6 +805,7 @@
 			"image"			""
 			"scaleImage"	"1"
 			"color_outline"	"52 48 45 255"
+			"alpha_minmode"	"0"
 		}
 		"RedLeaderAvatarBG"
 		{
@@ -815,6 +819,7 @@
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
 			"bgcolor_override"	"ahudDarkRed"
+			"alpha_minmode"	"0"
 		}
 		"RedPlayerList"
 		{

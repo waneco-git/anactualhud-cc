@@ -2084,6 +2084,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"nexttip"
+		"font"			"aRegular10"
 	}
 	"ResetStatsButton" [$WIN32]
 	{
@@ -2104,6 +2105,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"resetstatsbutton"
+		"font"			"aRegular10"
 	}
 	"CloseButton" [$WIN32]
 	{

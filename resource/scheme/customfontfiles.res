@@ -420,11 +420,6 @@ Scheme
 		}
 		"8"
 		{
-			"font" "resource/fonts/Blocks.ttf"
-			"name" "Blocks"
-		}
-		"8"
-		{
 			"font"	"resource/fonts/CodeProBold.ttf"
 			"name"	"Code-Pro-Bold"
 			"bulgarian"
@@ -685,18 +680,19 @@ Scheme
 		}
 		"12"
 		{
-			"font" "resource/fonts/Blocks.ttf"
-			"name" "Blocks"
-		}
-		"13"
-		{
 			"font" "resource/fonts/Ahud Icons.ttf"
 			"name" "Ahud Icons"
 		}
-		"14"
+		"13"
 		{
 			"font"	"resource/fonts/Icons.ttf"
 			"name"	"Icons"
+		}
+		"14" 
+		{
+			"font" "resource/fonts/StreamerMode.ttf"
+			"name" "Streamer Mode"
+			//"range" "0x0020 0x0491"
 		}
 	}
 }

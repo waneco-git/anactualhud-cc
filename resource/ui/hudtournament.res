@@ -129,6 +129,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
 				"font"			"aRegular8"
+				"font_minmode"	"StreamerMode8"
 				"xpos"			"1"
 				"ypos"			"25"
 				"zpos"			"5"
@@ -143,7 +144,8 @@
 
 				if_competitive
 				{
-				"font"		"DefaultVerySmall"
+				"font"			"DefaultVerySmall"
+				"font_minmode"	"StreamerMode12"
 				"xpos"			"1"
 				"ypos"			"20"
 				"wide"			"39"

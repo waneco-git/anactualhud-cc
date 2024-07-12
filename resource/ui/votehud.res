@@ -95,8 +95,13 @@
 			"dulltext"		"0"
 			"brighttext"		"0"
 			"font"			"ScoreboardVerySmall"
+			"font_minmode"	"StreamerMode9"
 			"wrap"			"1"
 			"fgcolor_override"	"128 128 128 255"
+			
+			//"wide_minmode"		"0"
+			//"tall_minmode"		"0"
+			//"ypos_minmode"		"9999"
 		}
 
 		"Issue"

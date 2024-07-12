@@ -411,6 +411,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"TopPlayerLabel"
 		"font"			"aRegular9"
+		"font_minmode"	"StreamerMode9"
 		"fgcolor"		"ahudWhite"
 		"xpos"			"10"
 		"ypos"			"64"
@@ -548,6 +549,7 @@
 			"image"			""
 			"scaleImage"		"1"
 			"color_outline"		"52 48 45 255"
+			"alpha_minmode"	"0"
 		}
 		"Player1Name"
 		{
@@ -565,6 +567,9 @@
 			"textAlignment"		"west"
 			"dulltext"		"0"
 			"brighttext"		"0"
+			//"alpha_minmode"	"0"
+			"font_minmode"	"StreamerMode9"
+
 		}
 		"Player1Class"
 		{
@@ -664,6 +669,7 @@
 			"image"			""
 			"scaleImage"		"1"
 			"color_outline"		"52 48 45 255"
+			"alpha_minmode"	"0"
 		}
 		"Player2Name"
 		{
@@ -681,6 +687,8 @@
 			"textAlignment"		"west"
 			"dulltext"		"0"
 			"brighttext"		"0"
+			//"alpha_minmode"	"0"
+			"font_minmode"	"StreamerMode9"
 		}
 		"Player2Class"
 		{
@@ -780,6 +788,7 @@
 			"image"			""
 			"scaleImage"		"1"
 			"color_outline"		"52 48 45 255"
+			"alpha_minmode"	"0"
 		}
 		"Player3Name"
 		{
@@ -797,6 +806,8 @@
 			"textAlignment"		"west"
 			"dulltext"		"0"
 			"brighttext"		"0"
+			//"alpha_minmode"	"0"
+			"font_minmode"	"StreamerMode9"
 		}
 		"Player3Class"
 		{
@@ -908,6 +919,7 @@
 			"image"			""
 			"scaleImage"		"1"
 			"color_outline"		"52 48 45 255"
+			"alpha_minmode"	"0"
 		}
 		"Player1Name"
 		{
@@ -925,6 +937,8 @@
 			"textAlignment"		"west"
 			"dulltext"		"0"
 			"brighttext"		"0"
+			//"alpha_minmode"	"0"
+			"font_minmode"	"StreamerMode9"
 		}
 		"Player1Class"
 		{
@@ -1024,6 +1038,7 @@
 			"image"			""
 			"scaleImage"		"1"
 			"color_outline"		"52 48 45 255"
+			"alpha_minmode"	"0"
 		}
 		"Player2Name"
 		{
@@ -1041,6 +1056,8 @@
 			"textAlignment"		"west"
 			"dulltext"		"0"
 			"brighttext"		"0"
+			//"alpha_minmode"	"0"
+			"font_minmode"	"StreamerMode9"
 		}
 		"Player2Class"
 		{
@@ -1140,6 +1157,7 @@
 			"image"			""
 			"scaleImage"		"1"
 			"color_outline"		"52 48 45 255"
+			"alpha_minmode"	"0"
 		}
 		"Player3Name"
 		{
@@ -1157,6 +1175,8 @@
 			"textAlignment"		"west"
 			"dulltext"		"0"
 			"brighttext"		"0"
+			//"alpha_minmode"	"0"
+			"font_minmode"	"StreamerMode9"
 		}
 		"Player3Class"
 		{

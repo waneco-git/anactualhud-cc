@@ -469,6 +469,7 @@
 		"image"			""
 		"scaleImage"		"1"
 		"color_outline"		"52 48 45 255"
+		"alpha_minmode"		"0"
 	}
 	"Player1Name"
 	{
@@ -487,6 +488,8 @@
 		"textAlignment"		"west"
 		"dulltext"		"0"
 		"brighttext"		"0"
+		"alpha_minmode"	"50"
+		"font_minmode"	"StreamerMode9"
 	}
 	"Player1Class"
 	{
@@ -505,6 +508,7 @@
 		"textAlignment"		"west"
 		"dulltext"		"0"
 		"brighttext"		"0"
+		"font"			"aRegular10"
 	}
 	"Player1Score"
 	{
@@ -523,6 +527,7 @@
 		"textAlignment"		"east"
 		"dulltext"		"0"
 		"brighttext"		"0"
+		"font"			"aRegular10"
 	}
 
 	"Player2Avatar"		[$WIN32]
@@ -539,6 +544,7 @@
 		"image"			""
 		"scaleImage"		"1"
 		"color_outline"		"52 48 45 255"
+		"alpha_minmode"		"0"
 	}
 	"Player2Name"
 	{
@@ -557,6 +563,8 @@
 		"textAlignment"		"west"
 		"dulltext"		"0"
 		"brighttext"		"0"
+		"alpha_minmode"	"50"
+		"font_minmode"	"StreamerMode9"
 	}
 	"Player2Class"
 	{
@@ -607,8 +615,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			""
-		"scaleImage"		"1"
-		"color_outline"		"52 48 45 255"
+		"scaleImage"	"1"
+		"color_outline"	"52 48 45 255"
+		"alpha_minmode"	"0"
 	}
 	"Player3Name"
 	{
@@ -619,14 +628,16 @@
 		"zpos"			"3"
 		"wide"			"85"
 		"tall"			"14"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
-		"textAlignment"		"west"
+		"textAlignment"	"west"
 		"dulltext"		"0"
-		"brighttext"		"0"
+		"brighttext"	"0"
+		"alpha_minmode"	"50"
+		"font_minmode"	"StreamerMode9"
 	}
 	"Player3Class"
 	{
@@ -712,6 +723,7 @@
 		"image"			""
 		"scaleImage"		"1"
 		"color_outline"		"52 48 45 255"
+		"alpha_minmode"		"0"
 	}
 	"KillStreakPlayer1Name"
 	{
@@ -730,6 +742,8 @@
 		"textAlignment"		"west"
 		"dulltext"		"0"
 		"brighttext"		"0"
+		"alpha_minmode"	"50"
+		"font_minmode"	"StreamerMode9"
 	}
 	"KillStreakPlayer1Class"
 	{

@@ -1,14 +1,12 @@
-"GameMenu" [$WIN32]
+"GameMenu"
 {
-	"SteamWorkshopButton"
+	////// Menu
+	"Ahudbutton" //Special thanks to Peaches’ Xhud
 	{
-		"label" "Workshop"
-		"command" "engine OpenSteamWorkshopDialog"
-		"subimage" "glyph_steamworkshop"
-		"tooltip" "#MMenu_SteamWorkshop"
-
-	// These buttons are only shown while in-game
-	// and also are positioned by the .res file
+		"label"			"HUD Options"
+		"command"		"engine cl_mainmenu_safemode 1;mat_queue_mode 0"
+		"tooltip"		""
+		"OnlyInGame"	"0"
 	}
 	"Mark"
 	{
@@ -16,6 +14,31 @@
 		"command"		"engine ds_mark"
 		"tooltip"		""
 		"OnlyInGame"	"1"
+	}
+	
+	////// Quick game button
+	"community_servers"
+	{
+		"label"			""
+		"command"		"engine sm_servers; sm_nominate;cancelselect"
+		"tooltip"		"community servers"
+		"OnlyInGame"	"1"
+	}
+	"community_progress"
+	{
+		"label"			""
+		"command"		"engine sm_progress;cancelselect"
+		"tooltip"		"community stats"
+		"OnlyInGame"	"1"
+	}
+	
+	
+	"SteamWorkshopButton"
+	{
+		"label" "Workshop"
+		"command" "engine OpenSteamWorkshopDialog"
+		"subimage" "glyph_steamworkshop"
+		"tooltip" "#MMenu_SteamWorkshop"
 	}
 	"RequestCoachButton"
 	{
@@ -48,48 +71,15 @@
 		"OnlyInGame"	"1"
 		"tooltip"		"#MMenu_ReportPlayer"
 	}
-	"competive_requires"
-	{
-		"label"			"H"
-		"command"		"engine exec mm_override.cfg"
-		"tooltip"		"competive requires"
-		"OnlyInGame"	"0"
-	}
 	"AimBotAlert"
 	{
 		"label"			"D"
-		"command"		"engine cancelselect;say pls kick Hacker;wait 300;say pls kick Hacker;wait 300;say pls kick Hacker"
+		"command"		"engine Please Kick your bot; wait 200; engine Please Kick your bot; wait 200; engine Please Kick your bot"
 		"tooltip"		"spam hacker"
 		"OnlyInGame"	"1"
 	}
-	"BrokenSoundFix"
-	{
-		"label"			"FIX"
-		"command"		"engine stop; record fix"
-		"tooltip"		""
-		"OnlyInGame"	"1"
-	}
-	"BrokenSoundLabel"
-	{
-		"label"			"Broken sound"
-		"command"		"engine"
-		"tooltip"		""
-		"OnlyInGame"	"1"
-	}
-	"InvisiblePlayersLabel"
-	{
-		"label"			"invisible players"
-		"command"		"engine"
-		"tooltip"		""
-		"OnlyInGame"	"1"
-	}
-	"InvisiblePlayersFix"
-	{
-		"label"			"FIX"
-		"command"		"engine snd_restart"
-		"tooltip"		""
-		"OnlyInGame"	"1"
-	}
+	
+	////// fastmenu	
 	"HUD_ReloadButtom"
 	{
 		"label"			"K"
@@ -107,71 +97,300 @@
 	"VGUI"
 	{
 		"label"			"VGUI"
-		"command"		"engine sv_cheats 1; vgui_drawtree 1; vgui_drawtree_draw_selected 1;vgui_drawfocus 1; vgui_drawtree_draw_selected 1"
+		"command"		"engine sv_cheats 1; vgui_drawtree 1; vgui_drawfocus 1; vgui_drawtree_draw_selected 1"
 		"tooltip"		""
 		"OnlyInGame"	"0"
 	}
-	"Consolebutton"
+	////// Ahud Sidemenu
+	////// Configuration
+	"Caption_SCW"
 	{
-		"label"			"h"
-		"command"		"engine showconsole"
-		"tooltip"		""
-		"OnlyInGame"	"1"
+		"label"			"SCW"
+		"Command"		"engine closecaption 1; cc_subtitles 0; cc_lang "scw";cc_predisplay_time 0"
+		"tooltip"		"Skelet, Capital, White"
+		"OnlyInGame"	"0"
 	}
-	"ScoreboardButton"
+	"Caption_ACC"
 	{
-		"label"			"Scoreboard"
-		"command"		"engine toggle cl_hud_minmode"
-		"tooltip"		""
-		"OnlyInGame"	"1"
+		"label"			"ACC"
+		"Command"		"engine closecaption 1; cc_subtitles 0; cc_lang "aac";cc_predisplay_time 0"
+		"tooltip"		"All, Capital, Color"
+		"OnlyInGame"	"0"
+	}	
+	"Caption_SCC"
+	{
+		"label"			"SCC"
+		"Command"		"engine closecaption 1; cc_subtitles 0; cc_lang "scc";cc_predisplay_time 0"
+		"tooltip"		"Skelet, Capital, Color"
+		"OnlyInGame"	"0"
 	}
-	"Ccreatorlabel"
+	"Caption_SRC"
 	{
-		"label"			""
-		"command"		"engine cl_disablehtmlmotd 0; sm_w; cancelselect"
-		"tooltip"		""
-		"OnlyInGame"	"1"
+		"label"			"SRC"
+		"Command"		"engine closecaption 1; cc_subtitles 0; cc_lang "src";cc_predisplay_time 0"
+		"tooltip"		"Skelet, Non-capital, Color"
+		"OnlyInGame"	"0"
 	}
-	"CCampaign"
+	"Caption_OFF"
 	{
-		"label"			""
-		"command"		"engine cl_disablehtmlmotd 0; sm_ca; cancelselect"
+		"label"			"OFF"
+		"Command"		"engine closecaption 0"
 		"tooltip"		""
-		"OnlyInGame"	"1"
+		"OnlyInGame"	"0"
 	}
-	"CContracker"
+	"StreamerMode_ON"
 	{
-		"label"			""
-		"command"		"engine cl_disablehtmlmotd 0; sm_c; cancelselect"
-		"tooltip"		""
-		"OnlyInGame"	"1"
+		"label"			"switch to ON"
+		"Command"		"engine cl_hud_minmode 1; hud_saytext_time 0; fonts_streamer"
+		"tooltip"		"Require restart"
+		"OnlyInGame"	"0"
 	}
-	"Cprogress"
+	"StreamerMode_OFF"
 	{
-		"label"			""
-		"command"		"engine cl_disablehtmlmotd 0; /contract; cancelselect"
-		"tooltip"		""
-		"OnlyInGame"	"1"
+		"label"			"switch to OFF"
+		"Command"		"engine cl_hud_minmode 0; hud_saytext_time 12; fonts_def"
+		"tooltip"		"Require restart"
+		"OnlyInGame"	"0"
 	}
-	"CStore"
+	"BrokenSoundFix"
 	{
-		"label"			""
-		"command"		"engine cl_disablehtmlmotd 0; say !store; cancelselect"
+		"label"			"FIX SOUND"
+		"Command"		"engine stop; record fix"
 		"tooltip"		""
-		"OnlyInGame"	"1"
+		"OnlyInGame"	"0"
 	}
-	"Cloadout"
+	"InvisiblePlayersFix"
 	{
-		"label"			""
-		"command"		"engine cl_disablehtmlmotd 0; sm_l; cancelselect"
+		"label"			"FIX PLAYERS"
+		"Command"		"engine snd_restart"
 		"tooltip"		""
-		"OnlyInGame"	"1"
+		"OnlyInGame"	"0"
 	}
-	"Citems"
+	"Configuration_Practise"
 	{
-		"label"			""
-		"command"		"engine cl_disablehtmlmotd 0; sm_i; cancelselect"
+		"label"			"Practise MAP"
+		"command"		"engine sv_cheats 1; mp_teams_unbalance_limit 30; mp_disable_respawn_times 1; sv_allow_point_servercommand always; mp_restartgame 1"
+		"tooltip"		"server setup for practise maps"
+		"OnlyInGame"	"0"
+	}
+	"Configuration_Competive_requires"
+	{
+		"label"			"Competive"
+		"command"		"engine exec mm_override.cfg"
+		"tooltip"		"prevents crashes while loading competitive"
+		"OnlyInGame"	"0"
+	}
+	//////HUD preferences
+	"Scoreboard6v6"
+	{
+		"label"			"6v6"
+		"Command"		"engine scoreboard_6v6; hud_reloadscheme"
 		"tooltip"		""
-		"OnlyInGame"	"1"
+		"OnlyInGame"	"0"
+	}
+	"Scoreboard12v12"
+	{
+		"label"			"12v12"
+		"Command"		"engine scoreboard_12v12; hud_reloadscheme"
+		"tooltip"		""
+		"OnlyInGame"	"0"
+	}
+	"Scoreboard16v16"
+	{
+		"label"			"16v16"
+		"Command"		"engine scoreboard_16v16; hud_reloadscheme"
+		"tooltip"		""
+		"OnlyInGame"	"0"
+	}
+	"ScoreboardBottom6v6"
+	{
+		"label"			"6v6 bototom"
+		"Command"		"engine scoreboard_minbottom; hud_reloadscheme"
+		"tooltip"		""
+		"OnlyInGame"	"0"
+	}
+	"ScoreboardBottom12v12"
+	{
+		"label"			"12v12 bottom"
+		"Command"		"engine scoreboard_bottom; hud_reloadscheme"
+		"tooltip"		""
+		"OnlyInGame"	"0"
+	}
+	"ChatDef"
+	{
+		"label"			"↙"
+		"Command"		"engine hud_saytext_time 12; basechat_def; hud_reloadscheme"
+		"tooltip"		""
+		"OnlyInGame"	"0"
+	}
+	"ChatButtomRight"
+	{
+		"label"			"↘"
+		"Command"		"engine hud_saytext_time 12; basechat_bottomright; hud_reloadscheme"
+		"tooltip"		""
+		"OnlyInGame"	"0"
+	}
+	"ChatTopLeft"
+	{
+		"label"			"↖"
+		"Command"		"engine hud_saytext_time 12; basechat_topleft; hud_reloadscheme"
+		"tooltip"		""
+		"OnlyInGame"	"0"
+	}
+	"ChatOFF"
+	{
+		"label"			"OFF"
+		"Command"		"engine hud_saytext_time 0; hud_reloadscheme"
+		"tooltip"		""
+		"OnlyInGame"	"0"
+	}
+	"TransparentON"
+	{
+		"label"			"ON"
+		"Command"		"engine TransparentViewmodel_ON"
+		"tooltip"		""
+		"OnlyInGame"	"0"
+	}
+	"TransparentOFF"
+	{
+		"label"			"OFF"
+		"Command"		"engine TransparentViewmodel_OFF"
+		"tooltip"		""
+		"OnlyInGame"	"0"
+	}
+	"NetGraphON"
+	{
+		"label"			"ON"
+		"Command"		"engine alias +score "+score;net_graph 1"
+		"tooltip"		""
+		"OnlyInGame"	"0"
+	}
+	"NetGraphOFF"
+	{
+		"label"			"OFF"
+		"Command"		"engine alias -score "-score;net_graph 0"
+		"tooltip"		""
+		"OnlyInGame"	"0"
+	}
+	"SpraysON"
+	{
+		"label"			"ON"
+		"command"		"engine cl_playerspraydisable 0; r_spray_lifetime 2; r_decals 800; mp_decals 200; r_decal_cullsize 1; r_decalstaticprops 1; r_drawmodeldecals 1; r_drawbatchdecals 1; cl_allowdownload 1; cl_allowupload 1"
+		"tooltip"		""
+		"OnlyInGame"	"0"
+	}
+	"SpraysOFF"
+	{
+		"label"			"OFF"
+		"command"		"engine r_decals 0; mp_decals 0;r_cleardecals;r_cleardecals"
+		"tooltip"		""
+		"OnlyInGame"	"0"
+	}
+	"MedicChargeDef"
+	{
+		"label"			"Defult"
+		"Command"		"engine hudmediccharge_def; hud_reloadscheme"
+		"tooltip"		""
+		"OnlyInGame"	"0"
+	}
+	"MedicChargeCentre"
+	{
+		"label"			"Centre"
+		"Command"		"engine hudmediccharge_centre; hud_reloadscheme"
+		"tooltip"		""
+		"OnlyInGame"	"0"
+	}
+	"MedicChargeBottom"
+	{
+		"label"			"Bottom"
+		"Command"		"engine hudmediccharge_bottom; hud_reloadscheme"
+		"tooltip"		""
+		"OnlyInGame"	"0"
+	}
+	//////MOD panel
+	"Bot1"
+	{
+		"label"			"1"
+		"command"		"engine sv_cheats 1; tf_bot_kick all; sv_pure 2; nav_generate; tf_bot_add 1; wait 50000; nav_edit 1; wait 1000; nav_edit 0; wait 500000; nav_edit 1; wait 1000; nav_edit 0; wait 5000000; nav_edit 1; wait 1000; nav_edit 0"
+		"tooltip"		"1v1"
+		"OnlyInGame"	"0"
+	}
+	"Bot12"
+	{
+		"label"			"12"
+		"command"		"engine sv_cheats 1; tf_bot_kick all; sv_pure 2; nav_generate; tf_bot_add 11; wait 50000; nav_edit 1; wait 1000; nav_edit 0; wait 500000; nav_edit 1; wait 1000; nav_edit 0; wait 5000000; nav_edit 1; wait 1000; nav_edit 0"
+		"tooltip"		"6v6"
+		"OnlyInGame"	"0"
+	}	
+	"Bot18"
+	{
+		"label"			"18"
+		"command"		"engine sv_cheats 1; tf_bot_kick all; sv_pure 2; nav_generate; tf_bot_add 17; wait 50000; nav_edit 1; wait 1000; nav_edit 0; wait 500000; nav_edit 1; wait 1000; nav_edit 0; wait 5000000; nav_edit 1; wait 1000; nav_edit 0"
+		"tooltip"		"9v9"
+		"OnlyInGame"	"0"
+	}
+	"Bot24"
+	{
+		"label"			"24"
+		"command"		"engine sv_cheats 1; tf_bot_kick all; sv_pure 2; nav_generate; tf_bot_add 23; wait 50000; nav_edit 1; wait 1000; nav_edit 0; wait 500000; nav_edit 1; wait 1000; nav_edit 0; wait 5000000; nav_edit 1; wait 1000; nav_edit 0"
+		"tooltip"		"12v12"
+		"OnlyInGame"	"0"
+	}
+	"BotKickAll"
+	{
+		"label"			"Kick"
+		"command"		"engine sv_cheats 1; tf_bot_kick all"
+		"tooltip"		""
+		"OnlyInGame"	"0"
+	}
+	"AddcondHeal"
+	{
+		"label"			"F"
+		"command"		"engine sv_cheats 1; hurtme -999999999"
+		"tooltip"		"Health"
+		"OnlyInGame"	"0"
+	}
+	"AddcondUber"
+	{
+		"label"			"B"
+		"command"		"engine sv_cheats 1; addcond 57"
+		"tooltip"		"Uber"
+		"OnlyInGame"	"0"
+	}	
+	"AddcondCrits"
+	{
+		"label"			"A"
+		"command"		"engine sv_cheats 1; addcond 56"
+		"tooltip"		"Crits"
+		"OnlyInGame"	"0"
+	}
+	"AddcondNoClip"
+	{
+		"label"			"@"
+		"command"		"engine sv_cheats 1; noclip"
+		"tooltip"		"No clip"
+		"OnlyInGame"	"0"
+	}
+	"AddcondInvisible"
+	{
+		"label"			"C"
+		"command"		"engine sv_cheats 1;addcond 66"
+		"tooltip"		"Invisible"
+		"OnlyInGame"	"0"
+	}
+	"AddonsMvMMoney"
+	{
+		"label"			"$"
+		"command"		"engine sv_cheats 1; currency_give 30000"
+		"tooltip"		"MvM money"
+		"OnlyInGame"	"0"
+	}
+	//////Save
+	"ahudSaveSettings"
+	{
+		"label"			"Back"
+		"command"		"engine cl_mainmenu_safemode 0;mat_queue_mode -1"
+		"tooltip"		""
+		"OnlyInGame"	"0"
 	}
 }

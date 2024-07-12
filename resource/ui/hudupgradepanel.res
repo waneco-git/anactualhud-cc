@@ -844,6 +844,7 @@
 			"tabPosition"	"0"
 			"labelText"		" > "
 			"textAlignment"	"center"
+			"font"			"aRegular10"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		"nexttip"

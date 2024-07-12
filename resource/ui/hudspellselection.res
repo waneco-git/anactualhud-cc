@@ -31,14 +31,12 @@
 		"scaleImage"	"1"
 	}
 
-	"SpellIcon"
+	"SpellIcon" //sv_cheats 1; ent_create tf_spell_pickup
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SpellIcon"
 		"xpos"			"16"
 		"ypos"			"15"
-		"xpos_minmode"	"16"
-		"ypos_minmode"	"35"
 		"zpos"			"7"
 		"wide"			"24"
 		"tall"			"24"
@@ -89,8 +87,6 @@
 		"xpos"			"42"
 		"ypos"			"17"
 		"zpos"			"1"
-		"xpos_minmode"	"42"
-		"ypos_minmode"	"37"
 		"wide"			"20"
 		"tall"			"19"
 		"fgcolor"		"ahudWhite"

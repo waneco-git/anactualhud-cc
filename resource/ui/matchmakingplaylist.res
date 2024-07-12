@@ -1,6 +1,7 @@
 "Resource/UI/MatchMakingDashboardCasualCriteria.res"
 {
-
+//SPECIAL MATCH MAKING SIDE MENU FOR GAMEMODES
+	
 	"EventEntry"
 	{
 		"ControlName"	"CEventPlayListEntry"
@@ -141,11 +142,12 @@
 			"ypos"			"303"
 		}
 	}
-
-	"Cserver"
+	////Custom servers
+	
+	"server_mvm"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"Cserver"
+		"fieldName"		"server_mvm"
 		"xpos"			"0"
 		"ypos"			"303"
 		"zpos"			"1"
@@ -153,26 +155,26 @@
 		"wide"			"255"
 		"scaleImage"	"1"
 		"proportionaltoparent"	"1"
-		"image"				"replay/thumbnails/creators/cmatchmakingplaylist"
-		"border_default"		"InnerShadowBorderThin"
+		"image"				"replay/thumbnails/community_servers/matchmakingplaylist_mvm"
+		"border_default"	"InnerShadowBorderThin"
 
 		if_event
 		{
-			"ypos"			"353"
+			"ypos"			"1353"//353
 		}
 	}
-	"CModeButton"
+	"ModeButton_potatotf"
 	{
 		"ControlName"	"CExButton" //EditablePanel
-		"fieldName"		"CModeButton"
-		"xpos"			"127"
+		"fieldName"		"ModeButton_potatotf"
+		"xpos"			"77"
 		"ypos"			"304"
 		"zpos"			"6"
 		"wide"			"122"
 		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"Creators.tf"
+		"labelText"		"Potato.tf"
 		"textinsetx"	"4"
 		"use_proportional_insets" "1"
 		"font"			"HudFontSmallestBold"
@@ -190,17 +192,49 @@
 		
 		if_event
 		{
-			"ypos"			"354"
+			"ypos"			"1354"//354
 		}
 	}
-	"CDescLabel"
+	"ModeButton_moonlight"
+	{
+		"ControlName"	"CExButton" //EditablePanel
+		"fieldName"		"ModeButton_moonlight"
+		"xpos"			"127"
+		"ypos"			"304"
+		"zpos"			"10"
+		"wide"			"122"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"Moonlight.tf"
+		"textinsetx"	"4"
+		"use_proportional_insets" "1"
+		"font"			"HudFontSmallestBold"
+		"textAlignment"	"west"
+		"default"		"1"
+		"proportionaltoparent" "1"
+		"actionsignallevel"	"2"
+
+		//"border"		"ahudMenuBorder"
+		"paintbackground"	"0"
+
+		"defaultFgColor_override"	"ahudWhite"
+		"armedFgColor_override"		"ahudWhite"
+		"depressedFgColor_override" "75 125 255 255"
+		
+		if_event
+		{
+			"ypos"			"1354"//354
+		}
+	}
+	"DescLabel_mvm"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"CDescLabel"
+		"fieldName"		"DescLabel_mvm"
 		"font"			"MMenuPlayListDesc"
-		"labelText"		"Community project that takes the initiative to provide new content."
+		"labelText"		"Community MvM servers."
 		"textAlignment"	"north-west"
-		"xpos"			"130"
+		"xpos"			"82"
 		"ypos"			"320"
 		"zpos"			"9999"
 		"wide"			"115"
@@ -214,16 +248,16 @@
 		
 		if_event
 		{
-			"ypos"			"370"
+			"ypos"			"1370" //370
 		}
 	}
 
-	"CDescLabelShadow"
+	"DescLabelShadow_mvm"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"CDescLabelShadow"
+		"fieldName"		"DescLabelShadow_mvm"
 		"font"			"MMenuPlayListDesc"
-		"labelText"		"Community project that takes the initiative to provide new content."
+		"labelText"		"Community MvM servers."
 		"textAlignment"	"north-west"
 		"xpos"			"-1"
 		"ypos"			"-1"
@@ -237,30 +271,30 @@
 		"proportionaltoparent" "1"
 		"mouseinputenabled"	"0"
 	
-		"pin_to_sibling"		"CDescLabel"
+		"pin_to_sibling"		"DescLabel_mvm"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 		
-	"CBGPanel"
+	"BGPanel_potatotf"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"CBGPanel"
+		"fieldName"		"BGPanel_potatotf"
 		"xpos"			"0"
 		"ypos"			"303"
 		"zpos"			"9"
 		"tall"			"45"
-		"wide"			"255"
+		"wide"			"120"//255
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 
 		"border"		"InnerShadowBorder"
 		"bgcolor_override"	"0 0 0 0"
 	
-		"CBGPanelUrl"
+		"BGPanelUrl_mvm"
 		{
 			"ControlName"			"URLLabel"
-			"fieldName"				"CBGPanelUrl"
+			"fieldName"				"BGPanelUrl_mvm"
 			"xpos"					"0"
 			"ypos"					"0"
 			"zpos"					"2"
@@ -274,14 +308,198 @@
 			"textAlignment"			"west"
 			"fgcolor_override"		"HudWhite"
 			"proportionaltoparent"	"1"
-			"urlText"				"https://creators.tf/servers"
+			"urlText"				"https://potato.tf/servers"
 			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 		if_event
 		{
-			"ypos"			"353"
+			"ypos"			"1353"//353
+		}
+	}
+	"BGPanel_moonlight"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BGPanel_moonlight"
+		"xpos"			"135"
+		"ypos"			"303"
+		"zpos"			"9"
+		"tall"			"45"
+		"wide"			"120"//255
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+
+		"border"		"InnerShadowBorder"
+		"bgcolor_override"	"0 0 0 0"
+	
+		"BGPanelUrl_mvm"
+		{
+			"ControlName"			"URLLabel"
+			"fieldName"				"BGPanelUrl_mvm"
+			"xpos"					"0"
+			"ypos"					"0"
+			"zpos"					"2"
+			"wide"					"f0"
+			"tall"					"f0"
+			"font"					"HudFontSmallestBold"
+			"labelText"				""
+			"enabled"				"1"
+			"visible"				"1"
+			"paintBackground"		"0"
+			"textAlignment"			"west"
+			"fgcolor_override"		"HudWhite"
+			"proportionaltoparent"	"1"
+			"urlText"				"https://moonlight.tf/servers"
+			
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+		}
+		if_event
+		{
+			"ypos"			"1353"//353
+		}
+	}
+	"server_uncletopia"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"server_uncletopia"
+		"xpos"			"0"
+		"ypos"			"353"//303
+		"zpos"			"1"
+		"tall"			"45"
+		"wide"			"255"
+		"scaleImage"	"1"
+		"proportionaltoparent"	"1"
+		"image"				"replay/thumbnails/community_servers/matchmakingplaylist_uncletopia"
+		"border_default"	"InnerShadowBorderThin"
+
+		if_event
+		{
+			"ypos"			"403"
+		}
+	}
+	"ModeButton_uncletopia"
+	{
+		"ControlName"	"CExButton" //EditablePanel
+		"fieldName"		"ModeButton_uncletopia"
+		"xpos"			"127"
+		"ypos"			"354"
+		"zpos"			"6"
+		"wide"			"122"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"Uncletopia"
+		"textinsetx"	"4"
+		"use_proportional_insets" "1"
+		"font"			"HudFontSmallestBold"
+		"textAlignment"	"west"
+		"default"		"1"
+		"proportionaltoparent" "1"
+		"actionsignallevel"	"2"
+
+		//"border"		"ahudMenuBorder"
+		"paintbackground"	"0"
+
+		"defaultFgColor_override"	"ahudWhite"
+		"armedFgColor_override"		"ahudWhite"
+		"depressedFgColor_override" "75 125 255 255"
+		
+		if_event
+		{
+			"ypos"			"354"//404
+		}
+	}
+	"DescLabel_uncletopia"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"DescLabel_uncletopia"
+		"font"			"MMenuPlayListDesc"
+		"labelText"		"Community casual servers with quality-of-life changes."
+		"textAlignment"	"north-west"
+		"xpos"			"130"
+		"ypos"			"370"
+		"zpos"			"9999"
+		"wide"			"115"
+		"tall"			"40"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"wrap"			"1"
+		"fgcolor_override" "TanLight"
+		"proportionaltoparent" "1"
+		"mouseinputenabled"	"0"
+		
+		if_event
+		{
+			"ypos"			"370"//420
+		}
+	}
+
+	"DescLabelShadow_uncletopia"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"DescLabelShadow_uncletopia"
+		"font"			"MMenuPlayListDesc"
+		"labelText"		"Community casual servers with quality-of-life changes."
+		"textAlignment"	"north-west"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"9998"
+		"wide"			"115"
+		"tall"			"40"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"wrap"			"1"
+		"fgcolor_override" "Black"
+		"proportionaltoparent" "1"
+		"mouseinputenabled"	"0"
+	
+		"pin_to_sibling"		"DescLabel_uncletopia"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+	}
+		
+	"BGPanel_uncletopia"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BGPanel_uncletopia"
+		"xpos"			"0"
+		"ypos"			"353"
+		"zpos"			"9"
+		"tall"			"45"
+		"wide"			"255"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+
+		"border"		"InnerShadowBorder"
+		"bgcolor_override"	"0 0 0 0"
+	
+		"BGPanelUrl_uncletopia"
+		{
+			"ControlName"			"URLLabel"
+			"fieldName"				"BGPanelUrl_uncletopia"
+			"xpos"					"0"
+			"ypos"					"0"
+			"zpos"					"2"
+			"wide"					"f0"
+			"tall"					"f0"
+			"font"					"HudFontSmallestBold"
+			"labelText"				""
+			"enabled"				"1"
+			"visible"				"1"
+			"paintBackground"		"0"
+			"textAlignment"			"west"
+			"fgcolor_override"		"HudWhite"
+			"proportionaltoparent"	"1"
+			"urlText"				"https://uncletopia.com/servers"
+			
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+		}
+		if_event
+		{
+			"ypos"			"353"//403
 		}
 	}
 	"ScrollBar"
