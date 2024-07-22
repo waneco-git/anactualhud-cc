@@ -261,14 +261,14 @@
 	"NetGraphON"
 	{
 		"label"			"ON"
-		"Command"		"engine alias +score "+score;net_graph 1"
+		"Command"		"engine net_graph 1"
 		"tooltip"		""
 		"OnlyInGame"	"0"
 	}
 	"NetGraphOFF"
 	{
 		"label"			"OFF"
-		"Command"		"engine alias -score "-score;net_graph 0"
+		"Command"		"engine net_graph 0"
 		"tooltip"		""
 		"OnlyInGame"	"0"
 	}
