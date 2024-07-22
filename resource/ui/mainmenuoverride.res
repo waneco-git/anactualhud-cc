@@ -2764,6 +2764,7 @@
 		"zpos"				"1"
 		"wide"				"21"
 		"tall"				"18"
+		"visible"			"0" //
 
 		"SubButton"
 		{
@@ -2786,8 +2787,8 @@
 	
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			"visible"					"0"
-			"enabled"					"0"
+			"visible"					"1"
+			"enabled"					"1"
 		
 			"defaultFgColor_override"	"HudBlack"
 			"armedFgColor_override"		"HudPanelBorder"
@@ -2807,6 +2808,7 @@
 		"zpos"				"1"
 		"wide"				"21"
 		"tall"				"18"
+		"visible"			"0" //
 
 		"SubButton"
 		{
@@ -2828,8 +2830,8 @@
 	
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			"visible"					"0"
-			"enabled"					"0"
+			"visible"					"1"
+			"enabled"					"1"
 		
 			"defaultFgColor_override"	"HudBlack"
 			"armedFgColor_override"		"HudPanelBorder"
@@ -2869,8 +2871,8 @@
 	
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			"visible"					"0"
-			"enabled"					"0"
+			"visible"					"0" //
+			"enabled"					"1"
 		
 			"defaultFgColor_override"	"HudBlack"
 			"armedFgColor_override"		"HudPanelBorder"

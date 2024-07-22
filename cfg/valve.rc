@@ -1,31 +1,19 @@
 // load the base configuration
+r_decal_cullsize 1
+stuffcmds // stuff command line statements
+startupmenu // display the startup level
+//exec joystick.cfg // Setup custom controller
+
+
 // manage the firstrun file
 con_timestamp 0
-
 alias chud_firstrun "exec firstrun"
 exec hud_has_run.txt
 chud_firstrun
 
-r_decal_cullsize 1
-
-// Setup custom controller
-//exec joystick.cfg
-
 // run a user script file if present
 exec autoexec.cfg
-
-//
-// stuff command line statements
-//
-stuffcmds
-
-// display the startup level
-startupmenu
-
-sv_unlockedchapters 99
-
-// to fix sprays not saving
-//exec config.cfg ??
+sv_unlockedchapters 99 //more main menu background
 
 //remove dimmer
 wait 5; showconsole; wait; incrementvar mat_antialias -100 100 1; hideconsole; wait 5; incrementvar mat_antialias -100 100 -1
