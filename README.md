@@ -1,15 +1,11 @@
-### AHUD with support of creative.tf commands.  
+### aHUD with support of comunity servers commands  
 [Screenshots](https://imgur.com/a/QQvA4dr)  
-## Quide
 [Installation](https://github.com/jakadak/ahud-cc/wiki/Installation)  
-[Customization](https://github.com/jakadak/ahud-cc/wiki/Customization)  
-[HUD Extensions](URL)  
 
 [Custom Crosshair](https://github.com/jakadak/ahud-cc/wiki/Crosshair)  
 [Custom Hitmarker](https://github.com/jakadak/ahud-cc/wiki/Hitmarker)  
-[Transparent viewmodel](https://github.com/jakadak/ahud-cc/wiki/Transparent-viewmodel)  
 [Edit colors](https://github.com/jakadak/ahud-cc/wiki/Colors)  
-[Credits](https://github.com/jakadak/ahud-cc/wiki/Credits)  
+
 ***
 **Windows**: Yes  
 * 4:3 - 1024×768 and above  
@@ -23,9 +19,10 @@
 [Report bugs here](https://github.com/jakadak/ahud-cc/issues/new/choose)
 
 Special thanks:
-Original aHUD developers: hikyle, n0kk, Critical Fow
-Basefile Script Integration: Hypnotize
-Item menu (charinfoloadoutsubpanel.res) + Class Icons + Icons: Hypnootize
-Side menu: Peaches
-
-Doodle & JarateKing for tutorials
+- [Hikyle](https://github.com/Hikyle), [N0kk](https://github.com/N0kk), [Critical Fow](https://github.com/CriticalFlaw): Original aHUD developers  
+- [Hypnootize](https://github.com/Hypnootize): Basefile Script Integration + Class Icons + Fonts + Item-menu alternative from Sunsethud  
+- [Peaches](https://github.com/PapaPeach): Side menu  
+- [SiFWolf](https://gamebanana.com/members/1417462): Integrated modes: Consistent Kill Icons (2023)  
+- [Quik](https://www.teamfortress.tv/user/Quik): No-smoke explosions (eotl_pyro_pool_explosion_flash / explosions_pyro_pool.vpk)  
+- Griever: [Toonhud](https://steamcommunity.com/id/griiver/) Xhairs (crosshairs) & Hitmarker  
+- [Doodle](https://doodlesstuff.com/?p=tf2hud) & [JarateKing](https://github.com/JarateKing) for tutorials

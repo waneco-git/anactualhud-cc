@@ -1957,59 +1957,6 @@
 			}
 		}
 	}
-	"community_progress"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"community_progress"
-		"xpos"			"76"//18+6 = 24
-		"ypos"			"402"
-		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"20"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"	"Blank"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"1"
-			"ypos"			"1"
-			"wide"			"20"
-			"tall"			"20"
-			"visible"		"1"
-			"enabled"		"1"
-				
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground"	"0"
-			"paintborder"		"0"
-			
-			"image_drawcolor"	"ahudWhite"
-			"image_armedcolor"	"145 70 255 255"
-			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
-				"zpos"			"1"
-				"wide"			"20"
-				"tall"			"20"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-				"image"			"community_servers/progress"
-				
-				"proportionaltoparent"	"1"
-				"mouseinputenabled"	"0"
-				"keyboardinputenabled" "0"
-			}
-		}
-	}
 	//BOTTOM MENU BUTTONS
 
 	"RequestCoachButton"	//IN-GAME BUTTON
@@ -2783,7 +2730,7 @@
 			"brighttext"				"0"
 			"default"					"1"
 			"use_proportional_insets"	"1"
-			"visible"					"0"
+			"visible"					"0" //
 
 	
 			"sound_depressed"			"UI/buttonclick.wav"
@@ -2824,7 +2771,7 @@
 			"textAlignment"				"center"
 			"dulltext"					"0"
 			"brighttext"				"0"
-			"visible"					"0"
+			"visible"					"0" //
 			
 			"default"					"1"
 			"use_proportional_insets"	"1"
@@ -2850,7 +2797,7 @@
 		"zpos"				"1"
 		"wide"				"36"
 		"tall"				"20"	
-		"visible"			"0"	
+		"visible"			"0"	//
 
 		"SubButton"
 		{
@@ -2868,7 +2815,7 @@
 			"dulltext"					"1"
 			"brighttext"				"1"
 			"default"					"1"
-			"visible"					"0"
+			"visible"					"0" //
 	
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"

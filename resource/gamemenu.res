@@ -20,18 +20,10 @@
 	"community_servers"
 	{
 		"label"			""
-		"command"		"engine sm_servers; sm_nominate;cancelselect"
-		"tooltip"		"community servers"
+		"command"		"engine sm_nominate; callvote; cancelselect"
+		"tooltip"		"vote for map"
 		"OnlyInGame"	"1"
-	}
-	"community_progress"
-	{
-		"label"			""
-		"command"		"engine sm_progress;cancelselect"
-		"tooltip"		"community stats"
-		"OnlyInGame"	"1"
-	}
-	
+	}	
 	
 	"SteamWorkshopButton"
 	{
