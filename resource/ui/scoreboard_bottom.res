@@ -846,6 +846,7 @@
 				"font"			"ScoreboardMedium"
 			}
 		}
+	}	
 
 		"OpponentData"
 		{

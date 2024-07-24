@@ -721,12 +721,13 @@
 
 		"pin_to_sibling"	"ScoreboardBackground"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"//
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 
 		if_mvm
 		{
 			"visible"		"0"
 		}
+		
 
 		"DuelingLabel"
 		{
@@ -760,20 +761,19 @@
 			"image"			"../backpack/player/items/crafting/icon_dueling"
 			"scaleImage"	"1"
 		}
-	"DuelScoreboardBackground"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"DuelScoreboardBackground"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"f0"
-		"tall"			"f0"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"bgcolor_override"	"0 0 0 215"
-
-
+		"DuelScoreboardBackground"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"		"DuelScoreboardBackground"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-1"
+			"wide"			"f0"
+			"tall"			"f0"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"bgcolor_override"	"0 0 0 215"
+		}
 		"LocalPlayerData"
 		{
 			"ControlName"		"EditablePanel"
@@ -853,85 +853,85 @@
 			}
 		}
 
-		"OpponentData"
-		{
-			"ControlName"		"EditablePanel"
-			"fieldName"		"OpponentData"
-			"xpos"			"325"
-			"ypos"			"0"
-			"wide"			"200"
-			"tall"			"53"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"OpponentData"
+			{
+				"ControlName"		"EditablePanel"
+				"fieldName"		"OpponentData"
+				"xpos"			"325"
+				"ypos"			"0"
+				"wide"			"200"
+				"tall"			"53"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
 
-			"AvatarBGPanel"
-			{
-				"ControlName"	"EditablePanel"
-				"fieldName"		"AvatarBGPanel"
-				"xpos"			"7"
-				"ypos"			"7"
-				"zpos"			"-1"
-				"wide"			"36"
-				"tall"			"36"
-				"visible"		"1"
-				"PaintBackgroundType"	"2"
-				"bgcolor_override"	"117 107 94 255"
-			}
-			"AvatarImage"
-			{
-				"ControlName"	"CAvatarImagePanel"
-				"fieldName"		"AvatarImage"
-				"xpos"			"9"
-				"ypos"			"9"
-				"zpos"			"0"
-				"wide"			"32"
-				"tall"			"32"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			""
-				"scaleImage"	"1"
-				"color_outline"	"52 48 45 255"
-			}
-			"AvatarTextLabel"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"AvatarTextLabel"
-				"fgcolor"		"TanLight"
-				"xpos"			"50"
-				"ypos"			"7"
-				"zpos"			"2"
-				"wide"			"200"
-				"tall"			"18"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"wrap"			"0"
-				"labelText"		"%playername%"
-				"textAlignment"	"west"
-				"font"			"HudFontSmallest"
-			}
-			"Score"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"Score"
-				"labelText"		"%score%"
-				"textAlignment"	"west"
-				"xpos"			"50"
-				"ypos"			"23"
-				"zpos"			"3"
-				"wide"			"200"
-				"tall"			"20"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"font"			"ScoreboardMedium"
+				"AvatarBGPanel"
+				{
+					"ControlName"	"EditablePanel"
+					"fieldName"		"AvatarBGPanel"
+					"xpos"			"7"
+					"ypos"			"7"
+					"zpos"			"-1"
+					"wide"			"36"
+					"tall"			"36"
+					"visible"		"1"
+					"PaintBackgroundType"	"2"
+					"bgcolor_override"	"117 107 94 255"
+				}
+				"AvatarImage"
+				{
+					"ControlName"	"CAvatarImagePanel"
+					"fieldName"		"AvatarImage"
+					"xpos"			"9"
+					"ypos"			"9"
+					"zpos"			"0"
+					"wide"			"32"
+					"tall"			"32"
+					"visible"		"1"
+					"enabled"		"1"
+					"image"			""
+					"scaleImage"	"1"
+					"color_outline"	"52 48 45 255"
+				}
+				"AvatarTextLabel"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"AvatarTextLabel"
+					"fgcolor"		"TanLight"
+					"xpos"			"50"
+					"ypos"			"7"
+					"zpos"			"2"
+					"wide"			"200"
+					"tall"			"18"
+					"autoResize"	"0"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+					"wrap"			"0"
+					"labelText"		"%playername%"
+					"textAlignment"	"west"
+					"font"			"HudFontSmallest"
+				}
+				"Score"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"Score"
+					"labelText"		"%score%"
+					"textAlignment"	"west"
+					"xpos"			"50"
+					"ypos"			"23"
+					"zpos"			"3"
+					"wide"			"200"
+					"tall"			"20"
+					"autoResize"	"0"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+					"font"			"ScoreboardMedium"
+				}
 			}
 		}
-	}
 
 	"LocalPlayerStatsPanel"
 	{

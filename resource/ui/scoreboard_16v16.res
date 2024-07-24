@@ -761,22 +761,20 @@
 			"image"			"../backpack/player/items/crafting/icon_dueling"
 			"scaleImage"	"1"
 		}
-	"DuelScoreboardBackground"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"DuelScoreboardBackground"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"f0"
-		"tall"			"f0"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"bgcolor_override"	"0 0 0 215"
-
-
+		"DuelScoreboardBackground"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"		"DuelScoreboardBackground"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-1"
+			"wide"			"f0"
+			"tall"			"f0"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"bgcolor_override"	"0 0 0 215"
 		}
-
+		
 		"LocalPlayerData"
 		{
 			"ControlName"		"EditablePanel"
@@ -2155,7 +2153,6 @@
 		"tall"				"480"
 		"visible"			"0"
 		"enabled"			"1"
-
 		"verbose"			"1"
 
 		if_mvm

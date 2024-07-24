@@ -2783,12 +2783,11 @@
 			"brighttext"				"0"
 			"default"					"1"
 			"use_proportional_insets"	"1"
+			"visible"					"0"
 
 	
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			"visible"					"1"
-			"enabled"					"1"
 		
 			"defaultFgColor_override"	"HudBlack"
 			"armedFgColor_override"		"HudPanelBorder"
@@ -2825,13 +2824,13 @@
 			"textAlignment"				"center"
 			"dulltext"					"0"
 			"brighttext"				"0"
+			"visible"					"0"
+			
 			"default"					"1"
 			"use_proportional_insets"	"1"
 	
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			"visible"					"1"
-			"enabled"					"1"
 		
 			"defaultFgColor_override"	"HudBlack"
 			"armedFgColor_override"		"HudPanelBorder"
@@ -2850,7 +2849,8 @@
 		"ypos"				"365"
 		"zpos"				"1"
 		"wide"				"36"
-		"tall"				"20"
+		"tall"				"20"	
+		"visible"			"0"	
 
 		"SubButton"
 		{
@@ -2868,11 +2868,10 @@
 			"dulltext"					"1"
 			"brighttext"				"1"
 			"default"					"1"
+			"visible"					"0"
 	
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			"visible"					"0" //
-			"enabled"					"1"
 		
 			"defaultFgColor_override"	"HudBlack"
 			"armedFgColor_override"		"HudPanelBorder"
