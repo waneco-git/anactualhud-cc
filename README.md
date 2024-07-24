@@ -22,5 +22,5 @@ Special thanks:
 - [Peaches](https://github.com/PapaPeach): Side menu  
 - [SiFWolf](https://gamebanana.com/members/1417462): Integrated modes: Consistent Kill Icons (2023)  
 - [Quik](https://www.teamfortress.tv/user/Quik): No-smoke explosions (eotl_pyro_pool_explosion_flash / explosions_pyro_pool.vpk)  
-- Griever: [Toonhud](https://steamcommunity.com/id/griiver/) Xhairs (crosshairs) & Hitmarker  
+- Griever: [Toonhud](https://steamcommunity.com/id/griiver/) Xhairs (crosshairs) & Hitmarkers  
 - [Doodle](https://doodlesstuff.com/?p=tf2hud) & [JarateKing](https://github.com/JarateKing) for tutorials
