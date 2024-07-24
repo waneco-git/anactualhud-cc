@@ -1,4 +1,4 @@
-### ahud with community features
+### ahud with modern features (og with community commands)
 [Screenshots](https://imgur.com/a/QQvA4dr)  
 [Installation](https://github.com/jakadak/ahud-cc/wiki/Installation)  
 
