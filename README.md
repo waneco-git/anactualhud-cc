@@ -6,18 +6,16 @@
 [Custom Hitmarker](https://github.com/jakadak/ahud-cc/wiki/Hitmarker)  
 [Edit colors](https://github.com/jakadak/ahud-cc/wiki/Colors)  
 
-***
-**Windows**: Yes  
-* 4:3 - 1024×768 and above  
-* 16:9 - 1280x720 and above  
-* 16:10 -  1280x800 and above  
-
-**Linux**: ?  
-**Mac**: ?  
-**Console**: ?  
-
 [Report bugs here](https://github.com/jakadak/ahud-cc/issues/new/choose)
-
+    
+* **Windows**: Yes  
+  * 4:3 - 1024×768 and above  
+  * 16:9 - 1280x720 and above  
+  * 16:10 -  1280x800 and above  
+* **Linux**: ?  
+* **Mac**: ?  
+* **Console**: ?  
+  
 Special thanks:
 - [Hikyle](https://github.com/Hikyle), [N0kk](https://github.com/N0kk), [Critical Fow](https://github.com/CriticalFlaw): Original aHUD developers  
 - [Hypnootize](https://github.com/Hypnootize): Basefile Script Integration + Class Icons + Fonts + Item-menu alternative from Sunsethud  
