@@ -1,4 +1,4 @@
-### aHUD with community features
+### ahud with community features
 [Screenshots](https://imgur.com/a/QQvA4dr)  
 [Installation](https://github.com/jakadak/ahud-cc/wiki/Installation)  
 
