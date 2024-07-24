@@ -1,4 +1,4 @@
-### aHUD with support of comunity servers commands  
+### aHUD with comunity servers commands support
 [Screenshots](https://imgur.com/a/QQvA4dr)  
 [Installation](https://github.com/jakadak/ahud-cc/wiki/Installation)  
 
