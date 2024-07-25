@@ -1,4 +1,4 @@
-## ahud with modern features │ [screenshots](https://imgur.com/a/QQvA4dr)  
+## ahud with modern features │ [screenshots](https://imgur.com/a/zPrf6Iw)  
 
 [Installation](https://github.com/jakadak/ahud-cc/wiki/Installation)  
 [ahud-cc wiki](https://github.com/jakadak/ahud-cc/wiki)  
