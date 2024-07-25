@@ -1704,6 +1704,65 @@
 					}
 				}
 			}
+			"ahudXhairsLabel"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"ahudXhairsLabel"
+				"font"			"aBold12"
+				"labelText"		"Tutorials"
+				"textAlignment"	"center"
+				"ypos"			"301"//307
+				"wide"			"202"
+				"tall"			"24"
+				"visible"		"1"
+				"fgcolor"		"ahudWhite"
+				"proportionaltoparent"		"1"
+			}
+			"ahudXhairs"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"		"ahudXhairs"
+				"xpos"		"rs1-5"
+				"ypos"		"320"
+				"wide"		"192"
+				"tall"		"20"
+				"visible"	"1"
+				"bgcolor_override"		"HudBlack"
+				"proportionaltoparent"		"1"	
+
+				"ahudCrosshair"
+				{
+					"ControlName"	"URLLabel"
+					"fieldName"		"ahudCrosshair"
+					"font"			"aregular14" //aregular14
+					"labelText"		"Crosshair" //"CROSSHAIR TUTORIAL"
+					"textAlignment"	"center"
+					"ypos"			"0"
+					"xpos"			"0"
+					"wide"			"95"//202
+					"tall"			"20"
+					"visible"		"1"
+					"fgcolor"		"ahudWhite"
+					"proportionaltoparent"		"1"
+					"urlText"		"https://github.com/jakadak/ahud-cc/wiki/Crosshair"
+				}
+				"ahudHitmarker"
+				{
+					"ControlName"	"URLLabel"
+					"fieldName"		"ahudHitmarker"
+					"font"			"aregular14" //aregular14
+					"labelText"		"Hitmarker" //"HITMARKER TUTORIAL"
+					"textAlignment"	"center"
+					"ypos"			"0"
+					"xpos"			"95"
+					"wide"			"95"
+					"tall"			"20"
+					"visible"		"1"
+					"fgcolor"		"ahudWhite"
+					"proportionaltoparent"		"1"
+					"urlText"		"https://github.com/jakadak/ahud-cc/wiki/Hitmarker"
+				}
+			}
 		}	
 		"ahudSaveSettings"
 		{
