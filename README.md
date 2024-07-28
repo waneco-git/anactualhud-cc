@@ -15,6 +15,7 @@ Have a lovely day, au revoir!
 ***
 
 [Installation](https://github.com/jakadak/ahud-cc/wiki/Installation)  
+[Manual customizations](https://github.com/jakadak/ahud-cc/wiki/Customization)  
 [Report bugs here](https://github.com/jakadak/ahud-cc/issues/new/choose)
 * **Windows**: Yes  
   * 4:3 - 1024×768 and above  
