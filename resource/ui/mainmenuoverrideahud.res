@@ -1298,6 +1298,45 @@
 				"fgcolor"		"ahudWhite"
 				"proportionaltoparent"		"1"
 			}
+			"AhudConsoleButton"
+			{
+				"ControlName"		"EditablePanel"
+				"fieldName"			"AhudConsoleButton"
+				"xpos"				"127" //
+				"ypos"				"245"
+				"zpos"				"1"
+				"wide"				"21"
+				"tall"				"18"
+				"visible"			"1"
+
+				"SubButton"
+				{
+					"ControlName"				"CExImageButton"
+					"fieldName"					"SubButton"
+					"xpos"						"0"
+					"ypos"						"0"
+					"wide"						"21"
+					"tall"						"18"
+					"autoResize"				"0"
+					"pinCorner"					"3"
+					"tabPosition"				"0"
+					"font"						"Icons13"
+					"textAlignment"				"center"
+					"dulltext"					"0"
+					"brighttext"				"0"
+					"default"					"1"
+					"use_proportional_insets"	"1"
+					"visible"					"1"
+					
+					"sound_depressed"			"UI/buttonclick.wav"
+					"sound_released"			"UI/buttonclickrelease.wav"
+				
+					"defaultFgColor_override"	"HudPanelBorder"
+					"border_default"			"NoBorder"
+					//"border_Armed"			"FriendHighlightBorder"
+					"paintbackground"			"0"
+				}
+			}
 
 			"ModeratorMenu"
 			{
