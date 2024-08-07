@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture"	"vgui/replay/thumbnails/community_servers/matchmakingplaylist_uncletopia"
+	"$basetexture"	"vgui/replay/thumbnails/community_servers/matchmakingplaylist_quickplay"
 	"$translucent" "1"
 	"$ignorez" "1"
 	"$vertexcolor" "1"
