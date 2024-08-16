@@ -1,6 +1,6 @@
-## ahud with modern features │ [screenshots](https://imgur.com/a/zPrf6Iw)  
+## AHUD WITH MODERN FEATURES │ [SCREENSHOTS](https://imgur.com/gallery/ahud-cc-9npCWPa)  
 ![ahud](https://i.imgur.com/9sxJ95b.png)  
-**[SCREENSHOTS](https://imgur.com/a/zPrf6Iw)**  
+**[SCREENSHOTS](https://imgur.com/gallery/ahud-cc-9npCWPa)**  
 **[AHUD-CC WIKI](https://github.com/jakadak/ahud-cc/wiki)**  
 
 ### Modern update for Ahud
@@ -15,6 +15,7 @@ Have a lovely day, au revoir!
 ***
 
 [Installation](https://github.com/jakadak/ahud-cc/wiki/Installation)  
+[Extra customizations](https://github.com/jakadak/ahud-cc/wiki/Customization)  
 [Report bugs here](https://github.com/jakadak/ahud-cc/issues/new/choose)
 * **Windows**: Yes  
   * 4:3 - 1024×768 and above  
@@ -22,8 +23,7 @@ Have a lovely day, au revoir!
   * 16:10 -  1280x800 and above  
 * **Linux**: ?  
 * **Mac**: ?  
-* **Console**: ?  
-
+* **Console**: ?
 ***
   
 ### Special thanks:
@@ -34,3 +34,5 @@ Have a lovely day, au revoir!
 - [Quik](https://www.teamfortress.tv/user/Quik): No-smoke explosions (eotl_pyro_pool_explosion_flash / explosions_pyro_pool.vpk)  
 - Griever: [Toonhud](https://steamcommunity.com/id/griiver/) Xhairs (crosshairs) & Hitmarkers  
 - [Doodle](https://doodlesstuff.com/?p=tf2hud) & [JarateKing](https://github.com/JarateKing) for tutorials
+  
+[HUDS.TF](https://tf2huds.dev/hud/ahud-cc)   │   [CONFIG HUDS](https://comfig.app/huds/page/ahud-cc/)   │   [GAMEBANA](https://gamebanana.com/mods/530465)   │   [GITHUB](https://github.com/jakadak/ahud-cc)

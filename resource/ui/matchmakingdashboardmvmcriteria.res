@@ -7,9 +7,9 @@
 		"fieldName"		"MVMCriteria"
 		"xpos"			"r0"
 		"ypos"			"10"
-		"zpos"			"1002"
+		"zpos"			"1003"
 		"wide"			"420"
-		"tall"			"f0"
+		"tall"			"f10"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -22,7 +22,7 @@
 		"ypos"			"15"
 		"zpos"			"100"
 		"wide"			"410"
-		"tall"			"f100"
+		"tall"			"f50"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 
@@ -34,7 +34,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"BackButton"
 		"xpos"			"6"
-		"ypos"			"rsl-32"
+		"ypos"			"rs1-8"
 		"zpos"			"100"
 		"wide"			"90"
 		"tall"			"20"
@@ -63,7 +63,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MannUpToolTipButtonHack"
 		"xpos"			"106"
-		"ypos"			"rs1-32"
+		"ypos"			"rs1-8"
 		"zpos"			"101"
 		"wide"			"170"
 		"tall"			"20"
@@ -80,7 +80,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"MannUpQueueButton"
 		"xpos"			"106"
-		"ypos"			"rs1-32"
+		"ypos"			"rs1-8"
 		"zpos"			"100"
 		"wide"			"170"
 		"tall"			"20"
@@ -104,7 +104,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"armedBgColor_override"		"CreditsGreen"
-		"defaultBgColor_override"	"76 107 34 255" //GreenSolid
+		"defaultBgColor_override"	"GreenSolid"
 	}
 
 	"BootCampToolTipButtonHack"
@@ -112,7 +112,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BootCampToolTipButtonHack"
 		"xpos"			"5"
-		"ypos"			"rs1-32"
+		"ypos"			"rs1-8"
 		"zpos"			"101"
 		"wide"			"270"
 		"tall"			"20"
@@ -129,7 +129,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"BootCampQueueButton"
 		"xpos"			"5"
-		"ypos"			"rs1-32"
+		"ypos"			"rs1-8"
 		"zpos"			"100"
 		"wide"			"270"
 		"tall"			"20"
@@ -153,16 +153,16 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"armedBgColor_override"		"CreditsGreen"
-		"defaultBgColor_override"	"76 107 34 255" //GreenSolid
+		"defaultBgColor_override"	"GreenSolid"
 	}
 
 	"NextButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"NextButton"
-		"xpos"			"cs-0.54"//cs-0.5
-		"ypos"			"rs1-32"
-		"zpos"			"1"
+		"xpos"			"cs-0.5"
+		"ypos"			"rs1-8"
+		"zpos"			"100"
 		"wide"			"f20"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -190,11 +190,10 @@
 		"ControlName"		"CheckButton"
 		"fieldName"		"JoinLateCheckButton"
 		"xpos"		"rs1"
-		"ypos"		"rsl-32"
+		"ypos"		"rs1-9"
 		"zpos"		"50"
 		"wide"		"140"
 		"tall"		"20"
-		"autoResize"	"1"
 		"font"			"HudFontSmallest"
 		"labelText"		""
 		"proportionaltoparent"	"1"
@@ -205,12 +204,11 @@
 		"ControlName"		"Label"
 		"fieldName"		"JoinLateLabel"
 		"xpos"		"rs1"
-		"ypos"		"rs1-32"
+		"ypos"		"rs1-9"
 		"zpos"		"50"
 		"wide"		"115"
 		"tall"		"20"
 		"font"			"HudFontSmallest"
-		"autoResize"	"1"
 		"labelText"		"#TF_Matchmaking_JoinInProgress"
 		"proportionaltoparent"	"1"
 	}

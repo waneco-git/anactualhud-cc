@@ -300,6 +300,14 @@
 		"OnlyInGame"	"0"
 	}
 	//////MOD panel
+	"AhudConsoleButton"
+	{
+		"label"			"c"
+		"Command"		"engine toggleconsole"
+		"tooltip"		""
+		"OnlyInGame"	"0"
+	}
+	
 	"Bot1"
 	{
 		"label"			"1"

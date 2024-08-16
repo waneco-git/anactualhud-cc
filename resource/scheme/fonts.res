@@ -3957,6 +3957,76 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+		"Icons10"
+		{
+			"1"
+			{
+				"name"			"Icons"
+				"tall"			"10"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Icons11"
+		{
+			"1"
+			{
+				"name"			"Icons"
+				"tall"			"11"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Icons12"
+		{
+			"1"
+			{
+				"name"			"Icons"
+				"tall"			"12"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Icons13"
+		{
+			"1"
+			{
+				"name"			"Icons"
+				"tall"			"13"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Icons14"
+		{
+			"1"
+			{
+				"name"			"Icons"
+				"tall"			"14"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Icons15"
+		{
+			"1"
+			{
+				"name"			"Icons"
+				"tall"			"15"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Icons16"
+		{
+			"1"
+			{
+				"name"			"Icons"
+				"tall"			"16"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
 		"StreamerMode20"
 		{
 			"1"

@@ -2711,7 +2711,7 @@
 		"zpos"				"1"
 		"wide"				"21"
 		"tall"				"18"
-		"visible"			"0" //
+		"visible"			"0" //for editors
 
 		"SubButton"
 		{
@@ -2730,7 +2730,7 @@
 			"brighttext"				"0"
 			"default"					"1"
 			"use_proportional_insets"	"1"
-			"visible"					"0" //
+			"visible"					"0" //for editors
 
 	
 			"sound_depressed"			"UI/buttonclick.wav"
@@ -2754,7 +2754,7 @@
 		"zpos"				"1"
 		"wide"				"21"
 		"tall"				"18"
-		"visible"			"0" //
+		"visible"			"0" //for editors
 
 		"SubButton"
 		{
@@ -2771,7 +2771,7 @@
 			"textAlignment"				"center"
 			"dulltext"					"0"
 			"brighttext"				"0"
-			"visible"					"0" //
+			"visible"					"0" //for editors
 			
 			"default"					"1"
 			"use_proportional_insets"	"1"
@@ -2797,7 +2797,7 @@
 		"zpos"				"1"
 		"wide"				"36"
 		"tall"				"20"	
-		"visible"			"0"	//
+		"visible"			"0"	//for editors
 
 		"SubButton"
 		{
@@ -2815,7 +2815,7 @@
 			"dulltext"					"1"
 			"brighttext"				"1"
 			"default"					"1"
-			"visible"					"0" //
+			"visible"					"0"	//for editors
 	
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"

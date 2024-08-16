@@ -119,9 +119,6 @@
 		"autoresize"	"3"
 		"linespacing"	"16"
 		"textcolor"		"ahudWhite"
-		//"font"			"aRegular10"
-		"font"	"StreamerMode10"
-		"alpha"	"50"
 		//"alpha_minmode"	"0"
 	}
 
