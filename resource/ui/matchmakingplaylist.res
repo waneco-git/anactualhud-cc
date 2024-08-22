@@ -312,13 +312,45 @@
 			"ypos"			"1353"//353
 		}
 	}
+	//"ModeButton_moonlight"
+	//{
+	//	"ControlName"	"CExButton" //EditablePanel
+	//	"fieldName"		"ModeButton_moonlight"
+	//	"xpos"			"77"
+	//	"ypos"			"354"
+	//	"zpos"			"6"
+	//	"wide"			"122"
+	//	"tall"			"15"
+	//	"visible"		"1"
+	//	"enabled"		"1"
+	//	"labelText"		"Moonlight.tf"
+	//	"textinsetx"	"4"
+	//	"use_proportional_insets" "1"
+	//	"font"			"HudFontSmallestBold"
+	//	"textAlignment"	"west"
+	//	"default"		"1"
+	//	"proportionaltoparent" "1"
+	//	"actionsignallevel"	"2"
+	//
+	//	"border"		"ahudMenuBorder"
+	//	"paintbackground"	"0"
+	//
+	//	"defaultFgColor_override"	"ahudWhite"
+	//	"armedFgColor_override"		"ahudWhite"
+	//	"depressedFgColor_override" "75 125 255 255"
+	//	
+	//	if_event
+	//	{
+	//		"ypos"			"1354"//354
+	//	}
+	//}
 	"ModeButton_potatotf"
 	{
 		"ControlName"	"CExButton" //EditablePanel
 		"fieldName"		"ModeButton_potatotf"
-		"xpos"			"77"
+		"xpos"			"127"
 		"ypos"			"354"
-		"zpos"			"6"
+		"zpos"			"10"
 		"wide"			"122"
 		"tall"			"15"
 		"visible"		"1"
@@ -344,46 +376,14 @@
 			"ypos"			"1354"//354
 		}
 	}
-	"ModeButton_moonlight"
-	{
-		"ControlName"	"CExButton" //EditablePanel
-		"fieldName"		"ModeButton_moonlight"
-		"xpos"			"127"
-		"ypos"			"354"
-		"zpos"			"10"
-		"wide"			"122"
-		"tall"			"15"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"Moonlight.tf"
-		"textinsetx"	"4"
-		"use_proportional_insets" "1"
-		"font"			"HudFontSmallestBold"
-		"textAlignment"	"west"
-		"default"		"1"
-		"proportionaltoparent" "1"
-		"actionsignallevel"	"2"
-
-		//"border"		"ahudMenuBorder"
-		"paintbackground"	"0"
-
-		"defaultFgColor_override"	"ahudWhite"
-		"armedFgColor_override"		"ahudWhite"
-		"depressedFgColor_override" "75 125 255 255"
-		
-		if_event
-		{
-			"ypos"			"1354"//354
-		}
-	}
 	"DescLabel_mvm"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DescLabel_mvm"
 		"font"			"MMenuPlayListDesc"
-		"labelText"		"Community MvM servers."
+		"labelText"		"Community MvM servers"
 		"textAlignment"	"north-west"
-		"xpos"			"82"
+		"xpos"			"130"
 		"ypos"			"370"
 		"zpos"			"9999"
 		"wide"			"115"
@@ -424,23 +424,22 @@
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-		
-	"BGPanel_potatotf"
+	"BGPanel_mvm"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"BGPanel_potatotf"
+		"fieldName"		"BGPanel_mvm"
 		"xpos"			"0"
 		"ypos"			"353"
 		"zpos"			"9"
 		"tall"			"45"
-		"wide"			"120"//255
+		"wide"			"255"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 
 		"border"		"InnerShadowBorder"
 		"bgcolor_override"	"0 0 0 0"
 	
-		"BGPanelUrl_mvm"
+		"BGPanelUrl_quickplay"
 		{
 			"ControlName"			"URLLabel"
 			"fieldName"				"BGPanelUrl_mvm"
@@ -464,49 +463,7 @@
 		}
 		if_event
 		{
-			"ypos"			"1353"//353
-		}
-	}
-	"BGPanel_moonlight"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BGPanel_moonlight"
-		"xpos"			"135"
-		"ypos"			"353"
-		"zpos"			"9"
-		"tall"			"45"
-		"wide"			"120"//255
-		"visible"		"1"
-		"proportionaltoparent"	"1"
-
-		"border"		"InnerShadowBorder"
-		"bgcolor_override"	"0 0 0 0"
-	
-		"BGPanelUrl_mvm"
-		{
-			"ControlName"			"URLLabel"
-			"fieldName"				"BGPanelUrl_mvm"
-			"xpos"					"0"
-			"ypos"					"0"
-			"zpos"					"2"
-			"wide"					"f0"
-			"tall"					"f0"
-			"font"					"HudFontSmallestBold"
-			"labelText"				""
-			"enabled"				"1"
-			"visible"				"1"
-			"paintBackground"		"0"
-			"textAlignment"			"west"
-			"fgcolor_override"		"HudWhite"
-			"proportionaltoparent"	"1"
-			"urlText"				"https://moonlight.tf/servers"
-			
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-		}
-		if_event
-		{
-			"ypos"			"1353"//353
+			"ypos"			"1353"
 		}
 	}
 	"ScrollBar"
