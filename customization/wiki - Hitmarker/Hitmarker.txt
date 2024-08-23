@@ -1,5 +1,5 @@
 Wiki: https://github.com/jakadak001/ahud-cc/wiki/Hitmarker
-**You can all following files open with the notepad**
+**You can open all the following files with the notepad**
 
 ### General crosshair
 📁 resource\ui
