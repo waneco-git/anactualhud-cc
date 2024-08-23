@@ -133,13 +133,13 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								""
-			"fillcolor"								"99 141 153 255"
+			"fillcolor"								"72 112 125 255"
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
 
 			"if_multiple_trains_red"
 			{
-				"fillcolor"							"182 81 8 255"
+				"fillcolor"							"158 64 61 255"
 			}
 		}
 
@@ -204,6 +204,7 @@
 			"tall"									"200"
 			"visible"								"1"
 			"enabled"								"1"
+			"font"									"aregular10"
 			"labelText"								"#ControlPointIconCappers"
 			"textAlignment"							"center"
 			"proportionaltoparent"					"1"
@@ -221,6 +222,7 @@
 			"tall"									"200"
 			"visible"								"1"
 			"enabled"								"1"
+			"font"									"aregular10"
 			"labelText"								"%recede%"
 			"textAlignment"							"center"
 			"proportionaltoparent"					"1"
@@ -295,8 +297,8 @@
 	}
 	"EscortHilightSwoop" // removes swoop since it's broken anyways
 	{
-		"ControlName" "CControlPointIconSwoop"
-		"fieldName" "EscortHilightSwoop"
+		"ControlName"	"CControlPointIconSwoop"
+		"fieldName"		"EscortHilightSwoop"
 		"xpos" "9999"
 		"alpha" "0"
 	}
