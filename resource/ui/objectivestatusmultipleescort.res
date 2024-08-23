@@ -16,11 +16,11 @@
 	{
 		"ControlName"		"CTFHudEscort"
 		"fieldName"			"BlueEscortPanel"
-		"xpos"				"c-145"
-		"ypos"				"r160"
+		"xpos"				"c0-80"
+		"ypos"				"r30"
 		"zpos"				"1"
-		"wide"				"400"
-		"tall"				"200"
+		"wide"				"160"
+		"tall"				"15"
 		"visible"			"1"
 		"enabled"			"1"
 		"progress_xpos"		"79"
@@ -28,7 +28,7 @@
 
 		"if_blue_is_top"
 		{
-			"ypos"				"r176"
+			"ypos"				"r46"
 		}
 	}
 
@@ -36,11 +36,11 @@
 	{
 		"ControlName"		"CTFHudEscort"
 		"fieldName"			"RedEscortPanel"
-		"xpos"				"c-145"
-		"ypos"				"r160"
+		"xpos"				"c0-80"
+		"ypos"				"r30"
 		"zpos"				"1"
-		"wide"				"400"
-		"tall"				"200"
+		"wide"				"160"
+		"tall"				"15"
 		"visible"			"1"
 		"enabled"			"1"
 		"progress_xpos"		"79"
@@ -48,7 +48,7 @@
 
 		"if_red_is_top"
 		{
-			"ypos"				"r176"
+			"ypos"				"r46"
 		}
 	}
 }

@@ -158,6 +158,13 @@
 		"tooltip"		""
 		"OnlyInGame"	"0"
 	}
+	"Configuration_Jakadak"
+	{
+		"label"			"My config"
+		"command"		"engine exec jakadak_config.cfg"
+		"tooltip"		"Null momevent, Viewmodel, Network"
+		"OnlyInGame"	"0"
+	}
 	"Configuration_Practise"
 	{
 		"label"			"Practise MAP"
@@ -167,9 +174,9 @@
 	}
 	"Configuration_Competive_requires"
 	{
-		"label"			"Competive"
-		"command"		"engine exec mm_override.cfg"
-		"tooltip"		"prevents crashes while loading competitive"
+		"label"			"Prevent competive crashes"
+		"command"		"engine exec competitive_override.cfg"
+		"tooltip"		"while loading competitive"
 		"OnlyInGame"	"0"
 	}
 	//////HUD preferences
@@ -280,7 +287,7 @@
 	}
 	"MedicChargeDef"
 	{
-		"label"			"Defult"
+		"label"			"Default"
 		"Command"		"engine hudmediccharge_def; hud_reloadscheme"
 		"tooltip"		""
 		"OnlyInGame"	"0"
@@ -311,28 +318,28 @@
 	"Bot1"
 	{
 		"label"			"1"
-		"command"		"engine sv_cheats 1; tf_bot_kick all; sv_pure 2; nav_generate; tf_bot_add 1; wait 50000; nav_edit 1; wait 1000; nav_edit 0; wait 500000; nav_edit 1; wait 1000; nav_edit 0; wait 5000000; nav_edit 1; wait 1000; nav_edit 0"
+		"command"		"engine sv_cheats 1; tf_bot_kick all;tf_bot_add 1"
 		"tooltip"		"1v1"
 		"OnlyInGame"	"0"
 	}
 	"Bot12"
 	{
 		"label"			"12"
-		"command"		"engine sv_cheats 1; tf_bot_kick all; sv_pure 2; nav_generate; tf_bot_add 11; wait 50000; nav_edit 1; wait 1000; nav_edit 0; wait 500000; nav_edit 1; wait 1000; nav_edit 0; wait 5000000; nav_edit 1; wait 1000; nav_edit 0"
+		"command"		"engine sv_cheats 1; tf_bot_kick all; tf_bot_add 11"
 		"tooltip"		"6v6"
 		"OnlyInGame"	"0"
 	}	
 	"Bot18"
 	{
 		"label"			"18"
-		"command"		"engine sv_cheats 1; tf_bot_kick all; sv_pure 2; nav_generate; tf_bot_add 17; wait 50000; nav_edit 1; wait 1000; nav_edit 0; wait 500000; nav_edit 1; wait 1000; nav_edit 0; wait 5000000; nav_edit 1; wait 1000; nav_edit 0"
+		"command"		"engine sv_cheats 1; tf_bot_kick all; tf_bot_add 17"
 		"tooltip"		"9v9"
 		"OnlyInGame"	"0"
 	}
 	"Bot24"
 	{
 		"label"			"24"
-		"command"		"engine sv_cheats 1; tf_bot_kick all; sv_pure 2; nav_generate; tf_bot_add 23; wait 50000; nav_edit 1; wait 1000; nav_edit 0; wait 500000; nav_edit 1; wait 1000; nav_edit 0; wait 5000000; nav_edit 1; wait 1000; nav_edit 0"
+		"command"		"engine sv_cheats 1; tf_bot_kick all; tf_bot_add 23"
 		"tooltip"		"12v12"
 		"OnlyInGame"	"0"
 	}
@@ -341,6 +348,13 @@
 		"label"			"Kick"
 		"command"		"engine sv_cheats 1; tf_bot_kick all"
 		"tooltip"		""
+		"OnlyInGame"	"0"
+	}
+	"BotMove"
+	{
+		"label"			"Make the bots move"
+		"command"		"engine sv_cheats 1; nav_generate; wait 50000; nav_edit 1; wait 1000; nav_edit 0; wait 500000; nav_edit 1; wait 1000; nav_edit 0; wait 5000000; nav_edit 1; wait 1000; nav_edit 0"
+		"tooltip"		"Walkable space for bots"
 		"OnlyInGame"	"0"
 	}
 	"AddcondHeal"

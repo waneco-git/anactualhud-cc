@@ -5,7 +5,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ObjectiveStatusEscort"
 		"xpos"										"cs-0.5"
-		"ypos"										"rs1-5"
+		"ypos"										"r30"
 		"zpos"										"1"
 		"wide"										"155"
 		"tall"										"10"
@@ -133,13 +133,13 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								""
-			"fillcolor"								"BlueTF"
+			"fillcolor"								"99 141 153 255"
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
 
 			"if_multiple_trains_red"
 			{
-				"fillcolor"							"RedTF"
+				"fillcolor"							"182 81 8 255"
 			}
 		}
 
@@ -289,8 +289,15 @@
 			"ypos"									"9999"
 			"wide"									"0"
 			"tall"									"0"
-			"visible"								"1"
-			"enabled"								"1"
+			"visible"								"0"
+			"enabled"								"0"
 		}
+	}
+	"EscortHilightSwoop" // removes swoop since it's broken anyways
+	{
+		"ControlName" "CControlPointIconSwoop"
+		"fieldName" "EscortHilightSwoop"
+		"xpos" "9999"
+		"alpha" "0"
 	}
 }
