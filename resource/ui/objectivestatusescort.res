@@ -5,10 +5,10 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ObjectiveStatusEscort"
 		"xpos"										"cs-0.5"
-		"ypos"										"r30"
+		"ypos"										"r35"
 		"zpos"										"1"
 		"wide"										"155"
-		"tall"										"10"
+		"tall"										"15"//10
 		"visible"									"1"
 		"enabled"									"1"
 		"progress_xpos"								""
@@ -23,7 +23,7 @@
 		"ypos"										"cs-0.5"
 		"zpos"										"-1"
 		"wide"										"140"
-		"tall"										"8"
+		"tall"										"10"//8
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"1"
@@ -40,7 +40,7 @@
 		"ypos"										"cs-0.5"
 		"zpos"										"0"
 		"wide"										"140"
-		"tall"										"8"
+		"tall"										"10"//8
 		"visible"									"1"
 		"enabled"									"1"
 		"scaleImage"								"1"
@@ -55,7 +55,7 @@
 		"ypos"										"cs-0.5"
 		"zpos"										"1"
 		"wide"										"140"
-		"tall"										"8"
+		"tall"										"10"//8
 		"visible"									"1"
 		"enabled"									"1"
 		"image"										""
@@ -71,7 +71,7 @@
 		"ypos"										"cs-0.5"
 		"zpos"										"5"
 		"wide"										"3"
-		"tall"										"10"
+		"tall"										"15"//10
 		"visible"									"1"
 		"enabled"									"1"
 		"image"										"../hud/cart_home_blue"
@@ -100,7 +100,7 @@
 		"ypos"										"cs-0.5"
 		"zpos"										"3"
 		"wide"										"3"
-		"tall"										"10"
+		"tall"										"15"//10
 		"visible"									"0"
 		"enabled"									"1"
 		"image"										""
@@ -125,11 +125,11 @@
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"FillBar"
-			"xpos"									"0"
+			"xpos"									"-1"
 			"ypos"									"cs-0.5"
 			"zpos"									"0"
 			"wide"									"155"
-			"tall"									"8"
+			"tall"									"10"//10
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								""
@@ -147,11 +147,11 @@
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"EscortItemImage"
-			"xpos"									"144"
+			"xpos"									"142"
 			"ypos"									"cs-0.5"
 			"zpos"									"1"
-			"wide"									"11"
-			"tall"									"8"
+			"wide"									"12"
+			"tall"									"11"//10
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -172,11 +172,11 @@
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"EscortItemImageBottom"
-			"xpos"									"144"
+			"xpos"									"142"
 			"ypos"									"cs-0.5"
 			"zpos"									"1"
-			"wide"									"11"
-			"tall"									"8"
+			"wide"									"12"
+			"tall"									"11"//10
 			"visible"								"0"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -197,10 +197,10 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CapNumPlayers"
-			"xpos"									"144"
+			"xpos"									"142"
 			"ypos"									"cs-0.5"
 			"zpos"									"2"
-			"wide"									"11"
+			"wide"									"12"
 			"tall"									"200"
 			"visible"								"1"
 			"enabled"								"1"
@@ -215,10 +215,10 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RecedeTime"
-			"xpos"									"144"
+			"xpos"									"142"
 			"ypos"									"cs-0.5"
 			"zpos"									"2"
-			"wide"									"11"
+			"wide"									"12"
 			"tall"									"200"
 			"visible"								"1"
 			"enabled"								"1"
@@ -232,7 +232,7 @@
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"Speed_Backwards"
-			"xpos"									"146"
+			"xpos"									"144"
 			"ypos"									"cs-0.5"
 			"zpos"									"2"
 			"wide"									"6"
@@ -249,7 +249,7 @@
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"Blocked"
-			"xpos"									"146"
+			"xpos"									"144"
 			"ypos"									"cs-0.5"
 			"zpos"									"2"
 			"wide"									"7"

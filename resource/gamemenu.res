@@ -66,7 +66,7 @@
 	"AimBotAlert"
 	{
 		"label"			"D"
-		"command"		"engine Please Kick your bot; wait 200; engine Please Kick your bot; wait 200; engine Please Kick your bot"
+		"command"		"engine say Please Kick your bot; wait 200; say Please Kick your bot; wait 200; say Please Kick your bot"
 		"tooltip"		"spam hacker"
 		"OnlyInGame"	"1"
 	}
@@ -76,28 +76,28 @@
 	"Caption_SCW"
 	{
 		"label"			"SCW"
-		"Command"		"engine closecaption 1; cc_subtitles 0; cc_lang "scw";cc_predisplay_time 0"
+		"Command"		"engine closecaption 1; cc_subtitles 0; cc_lang SCW; cc_predisplay_time 0"
 		"tooltip"		"Skelet, Capital, White"
 		"OnlyInGame"	"0"
 	}
 	"Caption_ACC"
 	{
 		"label"			"ACC"
-		"Command"		"engine closecaption 1; cc_subtitles 0; cc_lang "aac";cc_predisplay_time 0"
+		"Command"		"engine closecaption 1; cc_subtitles 0; cc_lang ACC; cc_predisplay_time 0"
 		"tooltip"		"All, Capital, Color"
 		"OnlyInGame"	"0"
 	}	
 	"Caption_SCC"
 	{
 		"label"			"SCC"
-		"Command"		"engine closecaption 1; cc_subtitles 0; cc_lang "scc";cc_predisplay_time 0"
+		"Command"		"engine closecaption 1; cc_subtitles 0; cc_lang SCC; cc_predisplay_time 0"
 		"tooltip"		"Skelet, Capital, Color"
 		"OnlyInGame"	"0"
 	}
 	"Caption_SRC"
 	{
 		"label"			"SRC"
-		"Command"		"engine closecaption 1; cc_subtitles 0; cc_lang "src";cc_predisplay_time 0"
+		"Command"		"engine closecaption 1; cc_subtitles 0; cc_lang SRC; cc_predisplay_time 0"
 		"tooltip"		"Skelet, Non-capital, Color"
 		"OnlyInGame"	"0"
 	}
