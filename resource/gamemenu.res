@@ -71,28 +71,6 @@
 		"OnlyInGame"	"1"
 	}
 	
-	////// fastmenu	
-	"HUD_ReloadButtom"
-	{
-		"label"			"K"
-		"Command"		"engine vgui_cache_res_files 0; hud_reloadscheme; vgui_cache_res_files 1"
-		"tooltip"		""
-		"OnlyInGame"	"0"
-	}
-	"HUDmat_antialias"
-	{
-		"label"			"J"
-		"Command"		"engine vgui_cache_res_files 0; incrementvar mat_antialias 1 2 1; hud_reloadscheme; vgui_cache_res_files 1"
-		"tooltip"		""
-		"OnlyInGame"	"0"
-	}
-	"VGUI"
-	{
-		"label"			"VGUI"
-		"command"		"engine sv_cheats 1; vgui_drawtree 1; vgui_drawfocus 1; vgui_drawtree_draw_selected 1"
-		"tooltip"		""
-		"OnlyInGame"	"0"
-	}
 	////// Ahud Sidemenu
 	////// Configuration
 	"Caption_SCW"
