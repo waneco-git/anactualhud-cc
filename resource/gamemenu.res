@@ -66,7 +66,7 @@
 	"AimBotAlert"
 	{
 		"label"			"D"
-		"command"		"engine Please Kick your bot; wait 200; engine Please Kick your bot; wait 200; engine Please Kick your bot"
+		"command"		"engine say Please Kick your bot; wait 200; say Please Kick your bot; wait 200; say Please Kick your bot"
 		"tooltip"		"spam hacker"
 		"OnlyInGame"	"1"
 	}
