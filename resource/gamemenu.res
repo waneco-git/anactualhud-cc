@@ -66,7 +66,7 @@
 	"AimBotAlert"
 	{
 		"label"			"D"
-		"command"		"engine say Please Kick your bot; wait 200; say Please Kick your bot; wait 200; say Please Kick your bot"
+		"command"		"engine Please Kick your bot; wait 200; engine Please Kick your bot; wait 200; engine Please Kick your bot"
 		"tooltip"		"spam hacker"
 		"OnlyInGame"	"1"
 	}
@@ -139,7 +139,7 @@
 	"Configuration_Jakadak"
 	{
 		"label"			"My config"
-		"command"		"engine exec jakadak_config.cfg"
+		"command"		"engine exec jakadak_config.cfg; exec _jakadak_config.cfg"
 		"tooltip"		"Null momevent, Viewmodel, Network"
 		"OnlyInGame"	"0"
 	}

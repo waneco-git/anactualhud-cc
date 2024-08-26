@@ -35,6 +35,5 @@ Have a lovely day, au revoir!
 - [Kruphixx](https://github.com/Kruphixx): Payload HUD
 - Griever: [Toonhud](https://steamcommunity.com/id/griiver/) Xhairs (crosshairs) & Hitmarkers  
 - [Doodle](https://doodlesstuff.com/?p=tf2hud) & [JarateKing](https://github.com/JarateKing) for tutorials
-- XkzLL, Revan <33
   
 [HUDS.TF](https://tf2huds.dev/hud/ahud-cc)   │   [CONFIG HUDS](https://comfig.app/huds/page/ahud-cc/)   │   [GAMEBANA](https://gamebanana.com/mods/530465)   │   [GITHUB](https://github.com/jakadak/ahud-cc)
