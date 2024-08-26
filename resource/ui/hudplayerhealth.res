@@ -1,7 +1,7 @@
 "Resource/UI/HudPlayerHealth.res"
 {
 
-	"Crosshair1" //curante state: OFF
+	"Crosshair1" //current state: OFF
 	{
 		"ControlName"		"CTFImagePanel"//CTFImagePanel
 		"fieldName"			"Crosshair1"
@@ -17,7 +17,7 @@
 		"drawcolor"			"0 0 0 255"
 		"Alpha"				"255" // Crosshair1 opacity
 	}
-	"Crosshair2" //curante state: OFF
+	"Crosshair2" //current state: OFF
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"Crosshair2"
@@ -33,7 +33,7 @@
 		"drawcolor"			"0 0 0 255"
 		"Alpha"				"255" // Crosshair2 opacity
 	}
-	"Crosshair3" //curante state: OFF
+	"Crosshair3" //current state: OFF
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"Crosshair3"
@@ -50,7 +50,7 @@
 		"Alpha"				"255" // Crosshair3 opacity
 	}
 
-	"Hitmarker" //curante state: OFF
+	"Hitmarker" //current state: OFF
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"Hitmarker"

@@ -110,7 +110,7 @@
 		"image"			"../sprites/obj_icons/icon_obj_e"
 	}
 		//===================================================================================================
-	// PAYLOAD ICONS special thanks to Kruphixx, that made this for his ProductHUD
+	// PAYLOAD ICONS special thanks to Kruphixx, for allowing us to use his Payload icons from ProductHUD
 	//===================================================================================================
 
 	"CartAlert"

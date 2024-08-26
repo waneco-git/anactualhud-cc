@@ -1,6 +1,6 @@
 "Resource/HudLayout.res"
 {	
-	"TransparentViewmodelMask" //curante state: ON
+	"TransparentViewmodelMask" //current state: ON
 	{
 		//alpha doesn't work for this, you need to change the texture's alpha
 		"ControlName"	"ImagePanel"
