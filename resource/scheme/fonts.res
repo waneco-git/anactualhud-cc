@@ -1046,7 +1046,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana" //Verdana
+				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x04FF"
@@ -1078,13 +1078,12 @@ Scheme
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
 				"name"		"Verdana"
-				"tall"		"22"
+				"tall"		"9"
 				"weight"	"0"
 				"range"		"0x0000 0x04FF"
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
@@ -1100,7 +1099,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana" //Verdana
+				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x04FF"
@@ -1132,13 +1131,12 @@ Scheme
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
 				"name"		"Verdana"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x04FF"
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 		}
@@ -1178,13 +1176,12 @@ Scheme
 				"yres"		"1024 1199"
 				"antialias"	"1"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
 				"name"		"Verdana"
-				"tall"		"30"
+				"tall"		"18"
 				"weight"	"900"
 				"range"		"0x0000 0x04FF"
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
@@ -1258,12 +1255,12 @@ Scheme
 				"weight"	"700"
 				"yres"	"1024 1199"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
 				"name"		"Verdana"
-				"tall"		"24"
+				"tall"		"12"
 				"weight"	"700"
-				"yres"	"1200 10000"
+				"antialias" "1"
 			}
 		}
 		"HudFontGiant"
@@ -1306,14 +1303,14 @@ Scheme
 				"antialias" "1"
 				"yres"		"1024 1199"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
 				"name"		"Code-Pro-LC"
-				"tall"		"52"
+				"tall"		"23"	[$LINUX]
+				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
-				"yres"		"1200 10000"
 			}
 		}
 		"HudFontGiantBold"
@@ -1382,7 +1379,6 @@ Scheme
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"24"
-				"tall_lodef"		"28"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1393,7 +1389,18 @@ Scheme
 			"1"
 			{
 				"name"		"Code-Pro-LC"
+				"tall"		"23"	[$LINUX]
 				"tall"		"24"
+				"weight"	"500"
+				"yres"		"1 1199"
+				"additive"	"0"
+				"antialias" "1"
+			}
+			"2" // Misyl: Proportional
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"9"	[$LINUX]
+				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
