@@ -1,5 +1,5 @@
 #base "../../cfg/ahudcc/hud_hudlayout_transparent.txt"
-#base "hudlayout_transparentON.res"
+#base "hudlayout_transparentOFF.res"
 
 "Resource/HudLayout.res"
 {	
