@@ -47,4 +47,4 @@ Have a lovely day, au revoir!
 - Griever: [Toonhud](https://steamcommunity.com/id/griiver/) Xhairs (crosshairs) & Hitmarkers  
 - [Doodle](https://doodlesstuff.com/?p=tf2hud) & [JarateKing](https://github.com/JarateKing) for tutorials
 - XkzLL, Revan <33  
-- [Jakadak](https://github.com/jakadak/ahud-cc): For updaing ahud in the firstplace
+- [Jakadak](https://github.com/jakadak/ahud-cc): For updating ahud in the firstplace
