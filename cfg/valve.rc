@@ -1,9 +1,7 @@
 r_decal_cullsize 1
 
-exec joystick.cfg
 exec autoexec.cfg
 exec ahudcc_customization.cfg
-exec jakadak_config.cfg
 
 stuffcmds
 startupmenu
