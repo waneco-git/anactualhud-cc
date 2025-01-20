@@ -1,3 +1,9 @@
+### Work in progress edit of ahud
+
+### Warning multiple features removed and hardcoded values catered to my playing expirence
+
+<details>
+<summary>Old Readme</summary>
 ## AHUD WITH MODERN FEATURES │ [SCREENSHOTS](https://imgur.com/gallery/ahud-cc-9npCWPa)  
 ![ahud](https://i.imgur.com/9sxJ95b.png)  
 **[SCREENSHOTS](https://imgur.com/gallery/ahud-cc-9npCWPa)**  
@@ -38,3 +44,5 @@ Have a lovely day, au revoir!
 - XkzLL, Revan <33  
   
 [HUDS.TF](https://tf2huds.dev/hud/ahud-cc)   │   [CONFIG HUDS](https://comfig.app/huds/page/ahud-cc/)   │   [GAMEBANA](https://gamebanana.com/mods/530465)   │   [GITHUB](https://github.com/jakadak/ahud-cc)
+
+</details>
