@@ -1,4 +1,4 @@
-// Default Medic HUD
+// Bottom-aligned charge meter
 
 "Resource/UI/HudMedicCharge.res"
 {
@@ -52,16 +52,19 @@
 		"tall"			"32"
 		"autoResize"	"1"
 		"pinCorner"		"2"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_UberchargeMinHUD"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"aRegular42"
-		"fgcolor"		"0 0 0 100"
+		"fgcolor"		"ShadowBlack"
 
+		"pin_to_sibling"	"ChargeLabel"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
 	"IndividualChargesLabel"
@@ -77,9 +80,9 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"defaultbgcolor_override"	"HudBlack"
-        "textinsety" 	"255"
-
+		"defaultbgcolor_override"	"ahudBlack"
+		"PaintBackgroundType"	"0"
+        "textinsety" 	"99"
 	}
 
 	"IndividualChargesLabelShadow"
@@ -132,10 +135,10 @@
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"170"
 		"zpos"			"1"
-		"wide"			"101"
-		"tall"			"32"
+		"wide"			"f0"
+		"tall"			"6"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -145,10 +148,6 @@
 		"brighttext"	"0"
 		"fgcolor_override"		"Ubercharge Meter"
 		"bgcolor_override"		"0 0 0 100"
-
-		"pin_to_sibling"	"ChargeLabel"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	"ChargeMeter1"
 	{
@@ -260,7 +259,7 @@
 	{
 		"ControlName" 	"EditablePanel"
 		"fieldName" 	"ResistIconAnchor"
-		"xpos" 			"c-225"//c-217
+		"xpos" 			"c-217"
 		"ypos" 			"0"
 		"wide" 			"25"
 		"tall" 			"25"
