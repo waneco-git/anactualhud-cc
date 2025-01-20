@@ -1,13 +1,6 @@
 "GameMenu"
 {
 	////// Menu
-	"Mark"
-	{
-		"label"			"Mark"
-		"command"		"engine ds_mark"
-		"tooltip"		""
-		"OnlyInGame"	"1"
-	}
 	
 	////// Quick game button
 	"community_servers"
@@ -24,14 +17,6 @@
 		"command" "engine OpenSteamWorkshopDialog"
 		"subimage" "glyph_steamworkshop"
 		"tooltip" "#MMenu_SteamWorkshop"
-	}
-	"RequestCoachButton"
-	{
-		"label"			""
-		"command"		"engine cl_coach_find_coach"
-		"OnlyInGame"	"1"
-		"subimage"		"icon_whistle"
-		"tooltip"		"#MMenu_RequestCoach"
 	}
 	"CallVoteButton"
 	{
@@ -55,12 +40,5 @@
 		"command"		"OpenReportPlayerDialog"
 		"OnlyInGame"	"1"
 		"tooltip"		"#MMenu_ReportPlayer"
-	}
-	"AimBotAlert"
-	{
-		"label"			"D"
-		"command"		"engine say Please Kick your bot; wait 200; say Please Kick your bot; wait 200; say Please Kick your bot"
-		"tooltip"		"spam hacker"
-		"OnlyInGame"	"1"
 	}
 }

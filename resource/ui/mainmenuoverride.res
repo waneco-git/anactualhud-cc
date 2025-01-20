@@ -1732,7 +1732,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SettingsButtonNew"
 		"xpos"			"27"
-		"ypos"			"285"
+		"ypos"			"290"
 		"zpos"			"11"
 		"wide"			"150"
 		"tall"			"35"
@@ -1763,7 +1763,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TF2SettingsButtonNew"
 		"xpos"			"27"
-		"ypos"			"305"
+		"ypos"			"320"
 		"zpos"			"11"
 		"wide"			"150"
 		"tall"			"35"
@@ -1794,7 +1794,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"DemoUIButton"
 		"xpos"			"27"
-		"ypos"			"355"
+		"ypos"			"350"
 		"zpos"			"11"
 		"wide"			"90"
 		"tall"			"35"
@@ -1822,46 +1822,6 @@
 		"armedFgColor_override"   "ahudWhite"
 		"depressedFgColor_override" "75 125 255 255"
 
-	}
-	"Mark"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"Mark"
-		"xpos"				"115"
-		"ypos"				"362"
-		"zpos"				"5"
-		"wide"				"50"
-		"tall"				"20"
-		"visible"			"1"
-
-		"SubButton"
-		{
-			"ControlName"				"CExImageButton"
-			"fieldName"					"SubButton"
-			"xpos"						"0"
-			"ypos"						"0"
-			"wide"						"50"
-			"tall"						"20"
-			"pinCorner"					"3"
-			"visible"					"1"
-			"enabled"					"1"
-			"use_proportional_insets"	"1"
-			"font"						"aRegular20"
-			"textAlignment"				"west"
-			"default"					"1"
-					
-			"sound_depressed"			"UI/buttonclick.wav"
-			"sound_released"			"UI/buttonclickrelease.wav"
-			
-		
-			"defaultFgColor_override"	"HudPanelBorder"
-			"armedFgColor_override"		"ahudWhite"
-			"depressedFgColor_override"	"ahudWhite"
-			
-			"border_default"			"NoBorder"
-			"border_armed"				"NoBorder"
-			"paintbackground"			"0"
-		}
 	}
 	//COMMUNITY SERVERS BUTTONS
 	"community_servers"
@@ -1918,102 +1878,7 @@
 		}
 	}
 	//BOTTOM MENU BUTTONS
-
-	"RequestCoachButton"	//IN-GAME BUTTON
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"RequestCoachButton"
-		"xpos"			"130"
-		"ypos"			"r43"
-		"zpos"			"0"
-		"wide"			"14"
-		"tall"			"14"
-		"visible"		"1"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"14"
-			"tall"			"14"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"textinsetx"	"25"
-			"use_proportional_insets" "1"
-			"font"			"aRegular12"
-			"textAlignment"	"west"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"border_default"	"NoBorder"
-			"border_armed"		"NoBorder"
-			"paintbackground"	"0"
-			
-			"image_drawcolor"	"ahudWhite"
-			"image_armedcolor"	"0 191 255 255"
-			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"1"
-				"ypos"			"1"
-				"zpos"			"1"
-				"wide"			"12"
-				"tall"			"12"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"glyph_create"
-				"scaleImage"	"1"
-			}
-		}
-	}
 	
-	"CoachPlayersButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"CoachPlayersButton"
-		"xpos"			"110"
-		"ypos"			"r20"
-		"zpos"			"0"
-		"wide"			"14"
-		"tall"			"14"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		""
-		"font"			"aRegular12"
-		"textAlignment"	"center"
-		"default"		"1"
-		"Command"		"engine cl_coach_toggle"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		
-		"border_default"	"NoBorder"
-		"border_armed"		"NoBorder"
-		"paintbackground"	"0"
-		
-		"image_drawcolor"	"ahudWhite"
-		"image_armedcolor"	"0 191 255 255"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"1"
-			"ypos"			"1"
-			"zpos"			"1"
-			"wide"			"12"
-			"tall"			"12"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"glyph_commentary"
-			"scaleImage"	"1"
-		}
-	}
 	
 	"ReplayButton"
 	{
@@ -2623,43 +2488,6 @@
 			"angles_x"		"10"
 			"angles_y"		"130"
 			"angles_z"		"0"
-		}
-	}
-	"AimBotAlert"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"AimBotAlert"
-		"xpos"				"49"
-		"ypos"				"r46"
-		"zpos"				"5"
-		"wide"				"17"
-		"tall"				"17"
-		"visible"			"1"
-
-		"SubButton"
-		{
-			"ControlName"				"CExImageButton"
-			"fieldName"					"SubButton"
-			"xpos"						"0"
-			"ypos"						"2"
-			"wide"						"17"
-			"tall"						"17"
-			"pinCorner"					"3"
-			"visible"					"1"
-			"enabled"					"1"
-			"use_proportional_insets"	"1"
-			"font"						"AHUDicons16"
-			"textAlignment"				"south"
-			"default"					"1"
-			"sound_depressed"			"UI/buttonclick.wav"
-			"sound_released"			"UI/buttonclickrelease.wav"
-			
-		
-			"defaultFgColor_override"	"ahudWhite"
-			"armedFgColor_override"		"255 45 38 255"
-			"border_default"			"NoBorder"
-			"border_armed"				"NoBorder"
-			"paintbackground"			"0"
 		}
 	}
 	"Streamerstatus"
