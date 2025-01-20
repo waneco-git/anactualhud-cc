@@ -33,6 +33,10 @@ Have a lovely day, au revoir!
 * **Console**: ?
 ***
   
+[HUDS.TF](https://tf2huds.dev/hud/ahud-cc)   │   [CONFIG HUDS](https://comfig.app/huds/page/ahud-cc/)   │   [GAMEBANA](https://gamebanana.com/mods/530465)   │   [GITHUB](https://github.com/jakadak/ahud-cc)
+
+</details>
+
 ### Special thanks:
 - [Kruphixx](https://github.com/Kruphixx): Scream Fortress 2024 update, Payload HUD
 - [Hikyle](https://github.com/Hikyle), [N0kk](https://github.com/N0kk), [Critical Fow](https://github.com/CriticalFlaw): Original aHUD developers  
@@ -43,7 +47,4 @@ Have a lovely day, au revoir!
 - Griever: [Toonhud](https://steamcommunity.com/id/griiver/) Xhairs (crosshairs) & Hitmarkers  
 - [Doodle](https://doodlesstuff.com/?p=tf2hud) & [JarateKing](https://github.com/JarateKing) for tutorials
 - XkzLL, Revan <33  
-  
-[HUDS.TF](https://tf2huds.dev/hud/ahud-cc)   │   [CONFIG HUDS](https://comfig.app/huds/page/ahud-cc/)   │   [GAMEBANA](https://gamebanana.com/mods/530465)   │   [GITHUB](https://github.com/jakadak/ahud-cc)
-
-</details>
+- [Jakadak](https://github.com/jakadak/ahud-cc): For updaing ahud in the firstplace
