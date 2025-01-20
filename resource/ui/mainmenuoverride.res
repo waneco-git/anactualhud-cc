@@ -1789,47 +1789,6 @@
 		"armedFgColor_override"   "ahudWhite"
 		"depressedFgColor_override" "75 125 255 255"
 	}
-	"Ahudbutton"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"Ahudbutton"
-		"xpos"				"27"
-		"ypos"				"330"
-		"zpos"				"5"
-		"wide"				"150"
-		"tall"				"35"
-		"visible"			"1"
-
-		"SubButton"
-		{
-			"ControlName"				"CExImageButton"
-			"fieldName"					"SubButton"
-			"xpos"						"0"
-			"ypos"						"0"
-			"wide"						"150"
-			"tall"						"35"
-			"pinCorner"					"3"
-			"visible"					"1"
-			"enabled"					"1"
-			"use_proportional_insets"	"1"
-			"font"						"aRegular20"
-			"textinsetx"				"10"
-			"textAlignment"				"west"
-			"default"					"1"
-					
-			"sound_depressed"			"UI/buttonclick.wav"
-			"sound_released"			"UI/buttonclickrelease.wav"
-			
-		
-			"defaultFgColor_override"	"ahudWhite"
-			"armedFgColor_override"		"ahudWhite"
-			"depressedFgColor_override"	"75 125 255 255"
-			
-			"border_default"			"NoBorder"
-			"border_armed"				"ahudMenuBorder"
-			"paintbackground"			"0"
-		}
-	}
 	"DemoUIButton"
 	{
 		"ControlName"	"CExImageButton"
