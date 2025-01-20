@@ -24,9 +24,9 @@ Scheme
 		"Killstreak"			"243 243 243 255"
 
 		"ChargePercent"			"243 243 243 255"
-		"Ubercharge Meter"		"0 255 127 255"
-		"Ubercharge1"			"0 255 127 255"
-		"Ubercharge2"			"0 210 105 255"
+		"Ubercharge Meter"		"255 0 128 255"
+		"Ubercharge1"			"255 0 128 255"
+		"Ubercharge2"			"255 0 225 255"
 		"xpprogresscolour"		"94 150 49 255"
 
 		//---------------------------------------------
