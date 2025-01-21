@@ -2,8 +2,11 @@
 
 ### Warning multiple features removed and hardcoded values catered to my playing expirence
 
+
 <details>
 <summary>Old Readme</summary>
+
+***
 
 ## AHUD WITH MODERN FEATURES │ [SCREENSHOTS](https://imgur.com/gallery/ahud-cc-9npCWPa)  
 ![ahud](https://i.imgur.com/9sxJ95b.png)  
@@ -37,6 +40,8 @@ Have a lovely day, au revoir!
 
 </details>
 
+***
+
 ### Special thanks:
 - [Kruphixx](https://github.com/Kruphixx): Scream Fortress 2024 update, Payload HUD
 - [Hikyle](https://github.com/Hikyle), [N0kk](https://github.com/N0kk), [Critical Fow](https://github.com/CriticalFlaw): Original aHUD developers  
@@ -48,3 +53,5 @@ Have a lovely day, au revoir!
 - [Doodle](https://doodlesstuff.com/?p=tf2hud) & [JarateKing](https://github.com/JarateKing) for tutorials
 - XkzLL, Revan <33  
 - [Jakadak](https://github.com/jakadak/ahud-cc): For updating ahud in the firstplace
+
+***
