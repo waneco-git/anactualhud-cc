@@ -1,3 +1,0 @@
-Just find and delete this file
-📁 resource\ui
-📄 hudmediccharge_nobox.res
