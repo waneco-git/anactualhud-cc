@@ -3,13 +3,6 @@
 	////// Menu
 	
 	////// Quick game button
-	"community_servers"
-	{
-		"label"			""
-		"command"		"engine sm_nominate; callvote; cancelselect"
-		"tooltip"		"vote for map"
-		"OnlyInGame"	"1"
-	}	
 	
 	"SteamWorkshopButton"
 	{
@@ -17,14 +10,6 @@
 		"command" "engine OpenSteamWorkshopDialog"
 		"subimage" "glyph_steamworkshop"
 		"tooltip" "#MMenu_SteamWorkshop"
-	}
-	"CallVoteButton"
-	{
-		"label"			""
-		"command"		"callvote"
-		"OnlyInGame"	"1"
-		"subimage"		"icon_checkbox"
-		"tooltip"		"#MMenu_CallVote"
 	}
 	"MutePlayersButton"
 	{

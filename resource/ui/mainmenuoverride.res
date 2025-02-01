@@ -1823,60 +1823,6 @@
 		"depressedFgColor_override" "75 125 255 255"
 
 	}
-	//COMMUNITY SERVERS BUTTONS
-	"community_servers"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"community_servers"
-		"xpos"			"52"//70
-		"ypos"			"402"
-		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"20"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"	"Blank"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"1"
-			"ypos"			"1"
-			"wide"			"20"
-			"tall"			"20"
-			"visible"		"1"
-			"enabled"		"1"
-				
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground"	"0"
-			"paintborder"		"0"
-			
-			"image_drawcolor"	"ahudWhite"
-			"image_armedcolor"	"145 70 255 255"//163 72 250 255
-			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
-				"zpos"			"1"
-				"wide"			"20"
-				"tall"			"20"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-				"image"			"community_servers/servers"
-				
-				"proportionaltoparent"	"1"
-				"mouseinputenabled"	"0"
-				"keyboardinputenabled" "0"
-			}
-		}
-	}
 	//BOTTOM MENU BUTTONS
 	
 	

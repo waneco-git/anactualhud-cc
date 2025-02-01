@@ -60,7 +60,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"aRegular42"
-		"fgcolor"		"ShadowBlack"
+		"fgcolor"		"ShadowPurple"
 
 		"pin_to_sibling"	"ChargeLabel"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -104,7 +104,7 @@
 		"dulltext"		"1"
 		"brighttext"	"1"
 		"font"			"aRegular55"
-		"fgcolor"		"ShadowBlack"
+		"fgcolor"		"ShadowPurple"
 	}
 
 	"ChargeMeterLabel"
