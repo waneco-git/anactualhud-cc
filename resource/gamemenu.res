@@ -19,6 +19,14 @@
 		"subimage"		"glyph_muted"
 		"tooltip"		"#MMenu_MutePlayers"
 	}
+	"CallVoteButton"
+	{
+		"label"			""
+		"command"		"callvote"
+		"OnlyInGame"	"1"
+		"subimage"		"icon_checkbox"
+		"tooltip"		"#MMenu_CallVote"
+	}
 	"ReportPlayerButton"
 	{
 		"label"			""
