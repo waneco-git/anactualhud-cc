@@ -1830,7 +1830,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ReplayButton"
-		"xpos"			"70"
+		"xpos"			"80"
 		"ypos"			"r20"
 		"zpos"			"0"
 		"wide"			"14"
@@ -1873,7 +1873,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"AchievementsButton"
-		"xpos"			"90"
+		"xpos"			"100"
 		"ypos"			"r20"
 		"zpos"			"0"
 		"wide"			"14"
@@ -1914,7 +1914,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"SteamWorkshopButton"
-		"xpos"			"130"
+		"xpos"			"120"
 		"ypos"			"r20"
 		"zpos"			"0"
 		"wide"			"14"
@@ -2057,7 +2057,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ReportBugButton"
-		"xpos"			"50"
+		"xpos"			"60"
 		"ypos"			"r20"
 		"zpos"			"0"
 		"wide"			"14"
